@@ -3,8 +3,11 @@ This repository contains all the code needed to replicate the results from "Cons
 The contents of this repository consist of 4 notebooks:
 
 -Optimize
+
 -ComparisonWithBaseline
+
 -EvaluationOfDiminishingReturns
+
 -nTimesCoverage
 
 Running Optimize will generate vaccine designs using diminishing returns and populate the outputs foler. The outputs folder should be prepopulated, so this is optional. The rest of the notebooks can be run in any order.
