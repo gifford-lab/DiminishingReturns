@@ -1,0 +1,602 @@
+# NetMHCIIpan version 4.0
+
+# Input is in PEPTIDE format
+
+# Prediction Mode: EL+BA
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_0405
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+   1     DRB1_0405      DEFIPMKSSWGAIWR    2   FIPMKSSWG     1.000        Sequence      0.276609     4.39       NA      0.569284        105.66     1.67   <=WB
+   2     DRB1_0405      PVECSGEPVLVKITD    3   CSGEPVLVK     0.413        Sequence      0.000236    95.00       NA      0.179817       7145.22    76.22       
+   3     DRB1_0405      FKDGLGCRACYEIKC    4   LGCRACYEI     0.520        Sequence      0.000146    95.00       NA      0.188928       6474.45    73.73       
+   4     DRB1_0405      ANWKPDTVYTSKLQF    2   WKPDTVYTS     0.973        Sequence      0.103993    10.81       NA      0.372161        891.65    23.40       
+   5     DRB1_0405      KKGQEDKLRKAGELT    2   GQEDKLRKA     0.300        Sequence      0.000338    93.93       NA      0.109843      15234.25    92.44       
+   6     DRB1_0405      GSNPRGAAPDDHGGA    4   RGAAPDDHG     0.560        Sequence      0.002352    66.78       NA      0.064720      24822.91    95.00       
+   7     DRB1_0405      AAYHFDLSGKAFGAM    2   YHFDLSGKA     0.967        Sequence      0.135398     8.79       NA      0.471542        304.23     7.67   <=WB
+   8     DRB1_0405      KYAAGDGNIVAVDIK    1   YAAGDGNIV     0.560        Sequence      0.006345    47.78       NA      0.259837       3006.10    53.01       
+   9     DRB1_0405      SNPRGAAPDDHGGAC    3   RGAAPDDHG     0.567        Sequence      0.001460    75.42       NA      0.058763      26475.52    95.00       
+  10     DRB1_0405      DGLGCRACYEIKCKE    4   CRACYEIKC     0.527        Sequence      0.000173    95.00       NA      0.159119       8938.70    81.68       
+  11     DRB1_0405      AHLVQDDVIPANWKP    2   LVQDDVIPA     0.887        Sequence      0.097767    11.31       NA      0.380258        816.86    21.70       
+  12     DRB1_0405      CRACYEIKCKEPVEC    4   YEIKCKEPV     0.653        Sequence      0.000428    92.00       NA      0.174412       7575.53    77.67       
+  13     DRB1_0405      EIKCKEPVECSGEPV    1   IKCKEPVEC     0.580        Sequence      0.000387    92.88       NA      0.107953      15548.99    92.78       
+  14     DRB1_0405      KCKEPVECSGEPVLV    5   VECSGEPVL     0.753        Sequence      0.000848    84.09       NA      0.136434      11425.38    87.09       
+  15     DRB1_0405      CSGEPVLVKITDKNY    5   VLVKITDKN     0.553        Sequence      0.015894    32.57       NA      0.255766       3141.47    54.23       
+  16     DRB1_0405      KYPSGTKITFHIEKG    6   KITFHIEKG     0.380        Sequence      0.000908    83.16       NA      0.225916       4339.08    63.10       
+  17     DRB1_0405      SIRLTSEGGAHLVQD    3   LTSEGGAHL     0.973        Sequence      0.023706    26.81       NA      0.308468       1776.18    39.17       
+  18     DRB1_0405      AIGDKPGPNITATYG    3   DKPGPNITA     0.613        Sequence      0.001008    81.59       NA      0.099842      16975.22    94.27       
+  19     DRB1_0405      PFSIRLTSEGGAHLV    3   IRLTSEGGA     0.400        Sequence      0.013362    35.10       NA      0.361781        997.64    25.62       
+  20     DRB1_0405      LTLQFRRVKCKYPSG    4   FRRVKCKYP     0.973        Sequence      0.007715    44.34       NA      0.292991       2099.97    43.42       
+  21     DRB1_0405      RKAGELTLQFRRVKC    4   ELTLQFRRV     0.300        Sequence      0.000429    91.97       NA      0.306846       1807.63    39.59       
+  22     DRB1_0405      YGSKWLEARATFYGS    4   WLEARATFY     0.800        Sequence      0.017656    31.00       NA      0.386723        761.68    20.39       
+  23     DRB1_0405      FRRVKCKYPSGTKIT    3   VKCKYPSGT     0.580        Sequence      0.000532    89.80       NA      0.204704       5458.48    69.33       
+  24     DRB1_0405      VIPANWKPDTVYTSK    5   WKPDTVYTS     0.993        Sequence      0.226899     5.46       NA      0.340303       1258.63    30.82   <=WB
+  25     DRB1_0405      KNYEHIAAYHFDLSG    2   YEHIAAYHF     0.833        Sequence      0.039654    20.16       NA      0.447308        395.44    10.38       
+  26     DRB1_0405      FSIRLTSEGGAHLVQ    4   LTSEGGAHL     0.840        Sequence      0.013565    34.87       NA      0.354732       1076.70    27.25       
+  27     DRB1_0405      MAKKGQEDKLRKAGE    4   GQEDKLRKA     0.460        Sequence      0.000727    86.17       NA      0.107469      15630.63    92.87       
+  28     DRB1_0405      ITATYGSKWLEARAT    4   YGSKWLEAR     0.307        Sequence      0.000514    90.15       NA      0.266016       2811.70    51.17       
+  29     DRB1_0405      ATYGSKWLEARATFY    6   WLEARATFY     0.753        Sequence      0.001847    71.22       NA      0.384494        780.27    20.84       
+  30     DRB1_0405      KDGLGCRACYEIKCK    3   LGCRACYEI     0.533        Sequence      0.000212    95.00       NA      0.166542       8248.86    79.79       
+  31     DRB1_0405      IFKDGLGCRACYEIK    5   LGCRACYEI     0.360        Sequence      0.000298    94.79       NA      0.221755       4538.89    64.33       
+  32     DRB1_0405      VQDDVIPANWKPDTV    4   VIPANWKPD     0.607        Sequence      0.003184    60.99       NA      0.176325       7420.35    77.16       
+  33     DRB1_0405      PLKGPFSIRLTSEGG    5   FSIRLTSEG     0.887        Sequence      0.040092    20.02       NA      0.299162       1964.34    41.70       
+  34     DRB1_0405      LGCRACYEIKCKEPV    4   ACYEIKCKE     0.127        Sequence      0.000201    95.00       NA      0.178659       7235.30    76.53       
+  35     DRB1_0405      RRVKCKYPSGTKITF    2   VKCKYPSGT     0.520        Sequence      0.000293    94.89       NA      0.200902       5687.71    70.42       
+  36     DRB1_0405      YGSNPRGAAPDDHGG    5   RGAAPDDHG     0.427        Sequence      0.001814    71.57       NA      0.077168      21695.01    95.00       
+  37     DRB1_0405      DPKKPLKGPFSIRLT    5   LKGPFSIRL     0.653        Sequence      0.000724    86.23       NA      0.279064       2441.50    47.41       
+  38     DRB1_0405      AYHFDLSGKAFGAMA    1   YHFDLSGKA     0.713        Sequence      0.023722    26.80       NA      0.432574        463.79    12.44       
+  39     DRB1_0405      ITDKNYEHIAAYHFD    5   YEHIAAYHF     0.973        Sequence      0.127108     9.26       NA      0.388655        745.92    20.00   <=WB
+  40     DRB1_0405      HYLALLVKYAAGDGN    4   LLVKYAAGD     0.587        Sequence      0.038749    20.44       NA      0.499510        224.80     5.22       
+  41     DRB1_0405      CGYKDVDKPPFDGMT    2   YKDVDKPPF     0.753        Sequence      0.004029    56.41       NA      0.146837      10209.10    84.78       
+  42     DRB1_0405      KPGPNITATYGSKWL    3   PNITATYGS     0.500        Sequence      0.004945    52.56       NA      0.224173       4421.69    63.62       
+  43     DRB1_0405      AMAKKGQEDKLRKAG    3   KKGQEDKLR     0.373        Sequence      0.000981    82.02       NA      0.107586      15610.85    92.85       
+  44     DRB1_0405      GAAPDDHGGACGYKD    4   DDHGGACGY     0.167        Sequence      0.000058    95.00       NA      0.058142      26654.01    95.00       
+  45     DRB1_0405      MTACGNEPIFKDGLG    3   CGNEPIFKD     0.720        Sequence      0.000436    91.82       NA      0.188927       6474.52    73.73       
+  46     DRB1_0405      GACGYKDVDKPPFDG    4   YKDVDKPPF     0.893        Sequence      0.014194    34.21       NA      0.150125       9852.29    83.95       
+  47     DRB1_0405      GGAHLVQDDVIPANW    4   LVQDDVIPA     0.927        Sequence      0.187782     6.57       NA      0.376756        848.41    22.42   <=WB
+  48     DRB1_0405      FHIEKGSNDHYLALL    2   IEKGSNDHY     0.547        Sequence      0.002476    65.75       NA      0.276899       2499.37    48.04       
+  49     DRB1_0405      GAHLVQDDVIPANWK    3   LVQDDVIPA     0.980        Sequence      0.273044     4.45       NA      0.398322        671.84    18.11   <=WB
+  50     DRB1_0405      SGKAFGAMAKKGQED    4   FGAMAKKGQ     0.913        Sequence      0.030347    23.50       NA      0.201449       5654.15    70.26       
+  51     DRB1_0405      NEPIFKDGLGCRACY    4   FKDGLGCRA     0.660        Sequence      0.000796    84.91       NA      0.219878       4632.01    64.88       
+  52     DRB1_0405      LLVKYAAGDGNIVAV    4   YAAGDGNIV     0.807        Sequence      0.018296    30.51       NA      0.372128        891.97    23.40       
+  53     DRB1_0405      KGPFSIRLTSEGGAH    3   FSIRLTSEG     0.900        Sequence      0.100610    11.07       NA      0.317462       1611.48    36.71       
+  54     DRB1_0405      EHIAAYHFDLSGKAF    5   YHFDLSGKA     0.960        Sequence      0.154216     7.87       NA      0.506644        208.10     4.69   <=WB
+  55     DRB1_0405      SKWLEARATFYGSNP    3   LEARATFYG     0.620        Sequence      0.018081    30.67       NA      0.364194        971.93    25.11       
+  56     DRB1_0405      GYKDVDKPPFDGMTA    2   KDVDKPPFD     0.367        Sequence      0.002843    63.21       NA      0.142354      10716.50    85.79       
+  57     DRB1_0405      GQEDKLRKAGELTLQ    5   LRKAGELTL     0.913        Sequence      0.003322    60.09       NA      0.248152       3411.23    56.50       
+  58     DRB1_0405      PANWKPDTVYTSKLQ    3   WKPDTVYTS     1.000        Sequence      0.281560     4.30       NA      0.380846        811.68    21.58   <=WB
+  59     DRB1_0405      KAGELTLQFRRVKCK    3   ELTLQFRRV     0.467        Sequence      0.000537    89.70       NA      0.296466       2022.48    42.45       
+  60     DRB1_0405      VDKPPFDGMTACGNE    5   FDGMTACGN     0.987        Sequence      0.017752    30.93       NA      0.215520       4855.66    66.16       
+  61     DRB1_0405      GAMAKKGQEDKLRKA    4   KKGQEDKLR     0.267        Sequence      0.001183    79.04       NA      0.120544      13568.67    90.48       
+  62     DRB1_0405      EARATFYGSNPRGAA    5   FYGSNPRGA     0.693        Sequence      0.028034    24.58       NA      0.324659       1490.76    34.78       
+  63     DRB1_0405      DVDKPPFDGMTACGN    6   FDGMTACGN     0.920        Sequence      0.004447    54.45       NA      0.201617       5643.88    70.22       
+  64     DRB1_0405      LEARATFYGSNPRGA    4   ATFYGSNPR     0.360        Sequence      0.008602    42.44       NA      0.286660       2248.86    45.22       
+  65     DRB1_0405      KAFGAMAKKGQEDKL    2   FGAMAKKGQ     0.887        Sequence      0.010691    38.75       NA      0.183470       6868.31    75.23       
+  66     DRB1_0405      GTKITFHIEKGSNDH    5   FHIEKGSND     1.000        Sequence      0.577420     1.40       NA      0.422318        518.22    14.01   <=SB
+  67     DRB1_0405      SNDHYLALLVKYAAG    4   YLALLVKYA     0.993        Sequence      0.126770     9.28       NA      0.556964        120.73     2.05   <=WB
+  68     DRB1_0405      NPRGAAPDDHGGACG    2   RGAAPDDHG     0.413        Sequence      0.000760    85.56       NA      0.054566      27705.50    95.00       
+  69     DRB1_0405      VKYAAGDGNIVAVDI    2   YAAGDGNIV     0.787        Sequence      0.021280    28.29       NA      0.303768       1868.85    40.42       
+  70     DRB1_0405      EPVLVKITDKNYEHI    3   LVKITDKNY     0.520        Sequence      0.097570    11.33       NA      0.317800       1605.60    36.62       
+  71     DRB1_0405      ECSGEPVLVKITDKN    6   VLVKITDKN     0.700        Sequence      0.002168    68.30       NA      0.182245       6959.95    75.56       
+  72     DRB1_0405      LRKAGELTLQFRRVK    5   ELTLQFRRV     0.280        Sequence      0.000820    84.53       NA      0.335967       1319.08    31.85       
+  73     DRB1_0405      KWLEARATFYGSNPR    2   LEARATFYG     0.533        Sequence      0.006224    48.12       NA      0.339206       1273.65    31.08       
+  74     DRB1_0405      KLRKAGELTLQFRRV    3   KAGELTLQF     0.360        Sequence      0.001124    79.82       NA      0.351422       1115.96    28.06       
+  75     DRB1_0405      GDKPGPNITATYGSK    5   PNITATYGS     0.773        Sequence      0.003581    58.73       NA      0.120799      13531.29    90.43       
+  76     DRB1_0405      LTSEGGAHLVQDDVI    6   AHLVQDDVI     0.553        Sequence      0.002082    69.01       NA      0.193128       6186.82    72.57       
+  77     DRB1_0405      GLGCRACYEIKCKEP    3   CRACYEIKC     0.640        Sequence      0.000205    95.00       NA      0.159668       8885.77    81.54       
+  78     DRB1_0405      AAPDDHGGACGYKDV    5   HGGACGYKD     0.567        Sequence      0.000107    95.00       NA      0.068082      23936.17    95.00       
+  79     DRB1_0405      ATFYGSNPRGAAPDD    2   FYGSNPRGA     0.640        Sequence      0.030646    23.37       NA      0.247780       3424.99    56.61       
+  80     DRB1_0405      PDDHGGACGYKDVDK    3   HGGACGYKD     0.680        Sequence      0.000463    91.24       NA      0.084215      20102.32    95.00       
+  81     DRB1_0405      HIAAYHFDLSGKAFG    4   YHFDLSGKA     1.000        Sequence      0.248324     4.96       NA      0.499875        223.91     5.19   <=WB
+  82     DRB1_0405      PIFKDGLGCRACYEI    2   FKDGLGCRA     0.607        Sequence      0.000551    89.44       NA      0.224645       4399.16    63.48       
+  83     DRB1_0405      RVKCKYPSGTKITFH    4   KYPSGTKIT     0.207        Sequence      0.000211    95.00       NA      0.203518       5528.98    69.67       
+  84     DRB1_0405      TYGSKWLEARATFYG    5   WLEARATFY     0.887        Sequence      0.008267    43.11       NA      0.381118        809.30    21.52       
+  85     DRB1_0405      FDGMTACGNEPIFKD    3   MTACGNEPI     0.987        Sequence      0.024096    26.59       NA      0.281178       2386.29    46.80       
+  86     DRB1_0405      CKYPSGTKITFHIEK    5   GTKITFHIE     0.280        Sequence      0.000509    90.26       NA      0.211586       5066.80    67.31       
+  87     DRB1_0405      YPSGTKITFHIEKGS    5   KITFHIEKG     0.553        Sequence      0.001932    70.32       NA      0.225263       4369.84    63.30       
+  88     DRB1_0405      PSGTKITFHIEKGSN    4   KITFHIEKG     0.453        Sequence      0.004575    53.97       NA      0.219321       4660.01    65.04       
+  89     DRB1_0405      DKPPFDGMTACGNEP    4   FDGMTACGN     0.993        Sequence      0.041746    19.59       NA      0.216815       4788.10    65.78       
+  90     DRB1_0405      APDDHGGACGYKDVD    4   HGGACGYKD     0.647        Sequence      0.000263    95.00       NA      0.068214      23902.01    95.00       
+  91     DRB1_0405      GSKWLEARATFYGSN    3   WLEARATFY     0.760        Sequence      0.028399    24.40       NA      0.376746        848.50    22.43       
+  92     DRB1_0405      NYEHIAAYHFDLSGK    4   IAAYHFDLS     0.413        Sequence      0.014380    34.01       NA      0.416876        549.64    14.88       
+  93     DRB1_0405      NWKPDTVYTSKLQFG    1   WKPDTVYTS     0.653        Sequence      0.017133    31.45       NA      0.332542       1368.88    32.73       
+  94     DRB1_0405      RATFYGSNPRGAAPD    3   FYGSNPRGA     0.860        Sequence      0.095435    11.51       NA      0.303282       1878.70    40.56       
+  95     DRB1_0405      CYEIKCKEPVECSGE    3   IKCKEPVEC     0.793        Sequence      0.000771    85.35       NA      0.142468      10703.29    85.76       
+  96     DRB1_0405      WKPDTVYTSKLQFGA    5   VYTSKLQFG     0.533        Sequence      0.007053    45.93       NA      0.297933       1990.64    42.03       
+  97     DRB1_0405      TLQFRRVKCKYPSGT    3   FRRVKCKYP     0.960        Sequence      0.009200    41.32       NA      0.277243       2490.08    47.94       
+  98     DRB1_0405      DHGGACGYKDVDKPP    3   GACGYKDVD     0.447        Sequence      0.000361    93.43       NA      0.082923      20385.31    95.00       
+  99     DRB1_0405      LVKYAAGDGNIVAVD    3   YAAGDGNIV     0.847        Sequence      0.031622    22.93       NA      0.339837       1264.99    30.93       
+ 100     DRB1_0405      HLVQDDVIPANWKPD    1   LVQDDVIPA     0.673        Sequence      0.014060    34.35       NA      0.333975       1347.82    32.36       
+ 101     DRB1_0405      WLEARATFYGSNPRG    5   ATFYGSNPR     0.600        Sequence      0.003563    58.83       NA      0.265206       2836.45    51.41       
+ 102     DRB1_0405      HGGACGYKDVDKPPF    6   YKDVDKPPF     0.613        Sequence      0.001112    79.97       NA      0.139626      11037.52    86.39       
+ 103     DRB1_0405      AGELTLQFRRVKCKY    2   ELTLQFRRV     0.287        Sequence      0.000181    95.00       NA      0.284381       2305.01    45.87       
+ 104     DRB1_0405      GKAFGAMAKKGQEDK    3   FGAMAKKGQ     0.953        Sequence      0.049259    17.74       NA      0.193006       6194.99    72.60       
+ 105     DRB1_0405      IAAYHFDLSGKAFGA    3   YHFDLSGKA     0.993        Sequence      0.280333     4.32       NA      0.511042        198.43     4.40   <=WB
+ 106     DRB1_0405      ELTLQFRRVKCKYPS    5   FRRVKCKYP     0.953        Sequence      0.003864    57.27       NA      0.309113       1763.83    39.00       
+ 107     DRB1_0405      DLSGKAFGAMAKKGQ    6   FGAMAKKGQ     0.660        Sequence      0.002451    65.96       NA      0.213581       4958.60    66.73       
+ 108     DRB1_0405      PKKPLKGPFSIRLTS    4   LKGPFSIRL     0.820        Sequence      0.001111    79.99       NA      0.289128       2189.61    44.50       
+ 109     DRB1_0405      YKDVDKPPFDGMTAC    1   KDVDKPPFD     0.433        Sequence      0.000430    91.95       NA      0.118038      13941.61    90.93       
+ 110     DRB1_0405      GCRACYEIKCKEPVE    5   YEIKCKEPV     0.747        Sequence      0.000692    86.82       NA      0.174847       7539.96    77.56       
+ 111     DRB1_0405      CGNEPIFKDGLGCRA    6   FKDGLGCRA     0.333        Sequence      0.000557    89.33       NA      0.195990       5998.17    71.77       
+ 112     DRB1_0405      RACYEIKCKEPVECS    3   YEIKCKEPV     0.507        Sequence      0.000702    86.64       NA      0.178069       7281.64    76.69       
+ 113     DRB1_0405      VKITDKNYEHIAAYH    5   KNYEHIAAY     0.267        Sequence      0.001645    73.37       NA      0.241685       3658.47    58.44       
+ 114     DRB1_0405      ACGNEPIFKDGLGCR    5   PIFKDGLGC     0.360        Sequence      0.000184    95.00       NA      0.146067      10294.51    84.97       
+ 115     DRB1_0405      EPVECSGEPVLVKIT    2   VECSGEPVL     0.567        Sequence      0.000513    90.17       NA      0.194567       6091.24    72.17       
+ 116     DRB1_0405      DKLRKAGELTLQFRR    2   LRKAGELTL     0.667        Sequence      0.002374    66.60       NA      0.333383       1356.48    32.51       
+ 117     DRB1_0405      PPFDGMTACGNEPIF    2   FDGMTACGN     0.520        Sequence      0.013409    35.04       NA      0.288377       2207.47    44.73       
+ 118     DRB1_0405      VLVKITDKNYEHIAA    2   VKITDKNYE     0.647        Sequence      0.015826    32.63       NA      0.315839       1640.03    37.15       
+ 119     DRB1_0405      HIEKGSNDHYLALLV    1   IEKGSNDHY     0.433        Sequence      0.000600    88.53       NA      0.270610       2675.36    49.81       
+ 120     DRB1_0405      GDGNIVAVDIKPRDS    5   VAVDIKPRD     0.520        Sequence      0.073905    13.72       NA      0.248287       3406.25    56.46       
+ 121     DRB1_0405      SGEPVLVKITDKNYE    5   LVKITDKNY     0.493        Sequence      0.056820    16.21       NA      0.277871       2473.22    47.76       
+ 122     DRB1_0405      TATYGSKWLEARATF    3   YGSKWLEAR     0.373        Sequence      0.000496    90.54       NA      0.265702       2821.27    51.26       
+ 123     DRB1_0405      LQFRRVKCKYPSGTK    2   FRRVKCKYP     0.787        Sequence      0.003761    57.80       NA      0.254103       3198.51    54.72       
+ 124     DRB1_0405      GSNDHYLALLVKYAA    5   YLALLVKYA     0.980        Sequence      0.069469    14.29       NA      0.569474        105.45     1.66       
+ 125     DRB1_0405      VECSGEPVLVKITDK    4   GEPVLVKIT     0.340        Sequence      0.000152    95.00       NA      0.191014       6329.96    73.15       
+ 126     DRB1_0405      KGQEDKLRKAGELTL    6   LRKAGELTL     0.687        Sequence      0.000746    85.82       NA      0.227054       4285.98    62.77       
+ 127     DRB1_0405      PNITATYGSKWLEAR    2   ITATYGSKW     0.493        Sequence      0.002053    69.25       NA      0.261891       2940.03    52.40       
+ 128     DRB1_0405      HFDLSGKAFGAMAKK    3   LSGKAFGAM     0.193        Sequence      0.000494    90.58       NA      0.265448       2829.03    51.34       
+ 129     DRB1_0405      TKITFHIEKGSNDHY    4   FHIEKGSND     1.000        Sequence      0.673642     0.96       NA      0.464884        326.96     8.36   <=SB
+ 130     DRB1_0405      DVIPANWKPDTVYTS    6   WKPDTVYTS     0.920        Sequence      0.038884    20.40       NA      0.285728       2271.66    45.49       
+ 131     DRB1_0405      CKEPVECSGEPVLVK    4   VECSGEPVL     0.833        Sequence      0.002639    64.53       NA      0.177057       7361.81    76.96       
+ 132     DRB1_0405      IPANWKPDTVYTSKL    4   WKPDTVYTS     1.000        Sequence      0.237053     5.22       NA      0.377569        840.98    22.25   <=WB
+ 133     DRB1_0405      IEKGSNDHYLALLVK    5   NDHYLALLV     0.513        Sequence      0.000673    87.17       NA      0.301253       1920.40    41.13       
+ 134     DRB1_0405      GPFSIRLTSEGGAHL    2   FSIRLTSEG     0.633        Sequence      0.026708    25.22       NA      0.338681       1280.91    31.21       
+ 135     DRB1_0405      KITDKNYEHIAAYHF    6   YEHIAAYHF     0.847        Sequence      0.025931    25.61       NA      0.406256        616.57    16.65       
+ 136     DRB1_0405      FDLSGKAFGAMAKKG    4   GKAFGAMAK     0.413        Sequence      0.000544    89.57       NA      0.231551       4082.43    61.45       
+ 137     DRB1_0405      YAAGDGNIVAVDIKP    3   GDGNIVAVD     0.353        Sequence      0.001885    70.82       NA      0.215347       4864.75    66.21       
+ 138     DRB1_0405      KGSNDHYLALLVKYA    6   YLALLVKYA     0.913        Sequence      0.017477    31.15       NA      0.536908        149.99     2.94       
+ 139     DRB1_0405      PFDGMTACGNEPIFK    4   MTACGNEPI     0.900        Sequence      0.015271    33.16       NA      0.302097       1902.94    40.90       
+ 140     DRB1_0405      LALLVKYAAGDGNIV    3   LVKYAAGDG     0.360        Sequence      0.015283    33.15       NA      0.364365        970.13    25.08       
+ 141     DRB1_0405      DKNYEHIAAYHFDLS    3   YEHIAAYHF     0.987        Sequence      0.135037     8.81       NA      0.433156        460.87    12.35   <=WB
+ 142     DRB1_0405      GEPVLVKITDKNYEH    4   LVKITDKNY     0.460        Sequence      0.105430    10.70       NA      0.294284       2070.80    43.07       
+ 143     DRB1_0405      FYGSNPRGAAPDDHG    3   SNPRGAAPD     0.187        Sequence      0.001004    81.66       NA      0.145518      10355.84    85.09       
+ 144     DRB1_0405      PVLVKITDKNYEHIA    3   VKITDKNYE     0.653        Sequence      0.063660    15.11       NA      0.321997       1534.32    35.50       
+ 145     DRB1_0405      LSGKAFGAMAKKGQE    5   FGAMAKKGQ     0.887        Sequence      0.011579    37.43       NA      0.234758       3943.20    60.50       
+ 146     DRB1_0405      SGTKITFHIEKGSND    6   FHIEKGSND     0.980        Sequence      0.207149     5.96       NA      0.366756        945.35    24.56   <=WB
+ 147     DRB1_0405      NDHYLALLVKYAAGD    3   YLALLVKYA     0.987        Sequence      0.197933     6.24       NA      0.541727        142.37     2.71   <=WB
+ 148     DRB1_0405      ITFHIEKGSNDHYLA    2   FHIEKGSND     0.980        Sequence      0.297153     4.02       NA      0.453647        369.23     9.61   <=WB
+ 149     DRB1_0405      IRLTSEGGAHLVQDD    2   LTSEGGAHL     0.873        Sequence      0.008821    42.00       NA      0.284882       2292.55    45.73       
+ 150     DRB1_0405      GGACGYKDVDKPPFD    5   YKDVDKPPF     0.887        Sequence      0.005377    50.92       NA      0.147880      10094.54    84.51       
+ 151     DRB1_0405      YEHIAAYHFDLSGKA    6   YHFDLSGKA     0.733        Sequence      0.060278    15.64       NA      0.472037        302.61     7.61       
+ 152     DRB1_0405      QEDKLRKAGELTLQF    4   LRKAGELTL     0.893        Sequence      0.004477    54.34       NA      0.306971       1805.19    39.55       
+ 153     DRB1_0405      YEIKCKEPVECSGEP    2   IKCKEPVEC     0.760        Sequence      0.000833    84.33       NA      0.128892      12396.82    88.74       
+ 154     DRB1_0405      DDHGGACGYKDVDKP    4   GACGYKDVD     0.360        Sequence      0.000292    94.91       NA      0.084325      20078.41    95.00       
+ 155     DRB1_0405      DGMTACGNEPIFKDG    2   MTACGNEPI     0.940        Sequence      0.010152    39.61       NA      0.224564       4403.02    63.50       
+ 156     DRB1_0405      TFYGSNPRGAAPDDH    1   FYGSNPRGA     0.427        Sequence      0.005375    50.93       NA      0.204942       5444.45    69.26       
+ 157     DRB1_0405      AKKGQEDKLRKAGEL    3   GQEDKLRKA     0.467        Sequence      0.000487    90.73       NA      0.112804      14753.92    91.89       
+ 158     DRB1_0405      GPNITATYGSKWLEA    3   ITATYGSKW     0.787        Sequence      0.005440    50.69       NA      0.248866       3384.98    56.29       
+ 159     DRB1_0405      ALLVKYAAGDGNIVA    5   YAAGDGNIV     0.480        Sequence      0.015272    33.16       NA      0.362571        989.14    25.45       
+ 160     DRB1_0405      LKGPFSIRLTSEGGA    4   FSIRLTSEG     0.907        Sequence      0.073823    13.73       NA      0.319636       1574.02    36.14       
+ 161     DRB1_0405      QDDVIPANWKPDTVY    3   VIPANWKPD     0.667        Sequence      0.003883    57.17       NA      0.178455       7251.29    76.58       
+ 162     DRB1_0405      KPPFDGMTACGNEPI    3   FDGMTACGN     0.907        Sequence      0.040049    20.04       NA      0.278032       2468.91    47.71       
+ 163     DRB1_0405      KCKYPSGTKITFHIE    6   GTKITFHIE     0.140        Sequence      0.000291    94.94       NA      0.210971       5100.63    67.49       
+ 164     DRB1_0405      QFRRVKCKYPSGTKI    1   FRRVKCKYP     0.540        Sequence      0.001542    74.47       NA      0.231373       4090.30    61.50       
+ 165     DRB1_0405      PRGAAPDDHGGACGY    3   AAPDDHGGA     0.487        Sequence      0.000251    95.00       NA      0.054057      27858.50    95.00       
+ 166     DRB1_0405      ACGYKDVDKPPFDGM    3   YKDVDKPPF     0.893        Sequence      0.012519    36.15       NA      0.159765       8876.44    81.52       
+ 167     DRB1_0405      VKCKYPSGTKITFHI    5   PSGTKITFH     0.240        Sequence      0.000170    95.00       NA      0.210534       5124.80    67.62       
+ 168     DRB1_0405      RLTSEGGAHLVQDDV    1   LTSEGGAHL     0.653        Sequence      0.002604    64.76       NA      0.239805       3733.65    59.00       
+ 169     DRB1_0405      PGPNITATYGSKWLE    4   ITATYGSKW     0.693        Sequence      0.004289    55.07       NA      0.218054       4724.34    65.41       
+ 170     DRB1_0405      IGDKPGPNITATYGS    6   PNITATYGS     0.320        Sequence      0.001065    80.70       NA      0.106437      15806.14    93.06       
+ 171     DRB1_0405      IKCKEPVECSGEPVL    6   VECSGEPVL     0.487        Sequence      0.000465    91.20       NA      0.120136      13628.70    90.55       
+ 172     DRB1_0405      GELTLQFRRVKCKYP    6   FRRVKCKYP     0.633        Sequence      0.000917    83.02       NA      0.302735       1889.85    40.72       
+ 173     DRB1_0405      LVQDDVIPANWKPDT    5   VIPANWKPD     0.407        Sequence      0.002517    65.41       NA      0.250364       3330.56    55.84       
+ 174     DRB1_0405      DKPGPNITATYGSKW    4   PNITATYGS     0.653        Sequence      0.004409    54.59       NA      0.181327       7029.43    75.81       
+ 175     DRB1_0405      KITFHIEKGSNDHYL    3   FHIEKGSND     1.000        Sequence      0.618677     1.18       NA      0.507554        206.06     4.63   <=SB
+ 176     DRB1_0405      KKPLKGPFSIRLTSE    3   LKGPFSIRL     0.753        Sequence      0.001967    69.96       NA      0.313537       1681.39    37.79       
+ 177     DRB1_0405      ACYEIKCKEPVECSG    4   IKCKEPVEC     0.633        Sequence      0.000580    88.90       NA      0.155730       9272.55    82.53       
+ 178     DRB1_0405      EKGSNDHYLALLVKY    4   NDHYLALLV     0.553        Sequence      0.000888    83.47       NA      0.345153       1194.28    29.62       
+ 179     DRB1_0405      YLALLVKYAAGDGNI    3   LLVKYAAGD     0.640        Sequence      0.029943    23.68       NA      0.420787        526.87    14.25       
+ 180     DRB1_0405      AAGDGNIVAVDIKPR    6   IVAVDIKPR     0.400        Sequence      0.004643    53.71       NA      0.225773       4345.80    63.15       
+ 181     DRB1_0405      KDVDKPPFDGMTACG    6   PFDGMTACG     0.153        Sequence      0.000114    95.00       NA      0.076677      21810.57    95.00       
+ 182     DRB1_0405      TACGNEPIFKDGLGC    2   CGNEPIFKD     0.653        Sequence      0.000177    95.00       NA      0.139830      11013.19    86.34       
+ 183     DRB1_0405      RGAAPDDHGGACGYK    2   AAPDDHGGA     0.393        Sequence      0.000075    95.00       NA      0.051821      28540.70    95.00       
+ 184     DRB1_0405      TFHIEKGSNDHYLAL    1   FHIEKGSND     0.907        Sequence      0.065995    14.78       NA      0.371062        902.32    23.63       
+ 185     DRB1_0405      NITATYGSKWLEARA    2   TATYGSKWL     0.253        Sequence      0.000722    86.26       NA      0.268184       2746.51    50.52       
+ 186     DRB1_0405      KEPVECSGEPVLVKI    3   VECSGEPVL     0.807        Sequence      0.002512    65.45       NA      0.200134       5735.17    70.63       
+ 187     DRB1_0405      IDPKKPLKGPFSIRL    3   KKPLKGPFS     0.560        Sequence      0.000662    87.38       NA      0.262879       2908.77    52.11       
+ 188     DRB1_0405      ARATFYGSNPRGAAP    4   FYGSNPRGA     0.787        Sequence      0.060150    15.66       NA      0.321568       1541.46    35.62       
+ 189     DRB1_0405      LVKITDKNYEHIAAY    1   VKITDKNYE     0.407        Sequence      0.002211    67.94       NA      0.269574       2705.51    50.11       
+ 190     DRB1_0405      GNEPIFKDGLGCRAC    5   FKDGLGCRA     0.487        Sequence      0.000626    88.05       NA      0.194764       6078.27    72.11       
+ 191     DRB1_0405      EDKLRKAGELTLQFR    3   LRKAGELTL     0.880        Sequence      0.007318    45.27       NA      0.329357       1416.87    33.54       
+ 192     DRB1_0405      GMTACGNEPIFKDGL    1   MTACGNEPI     0.767        Sequence      0.001690    72.89       NA      0.231899       4067.09    61.34       
+ 193     DRB1_0405      FGAMAKKGQEDKLRK    5   KKGQEDKLR     0.147        Sequence      0.001005    81.64       NA      0.139585      11042.42    86.39       
+ 194     DRB1_0405      KPLKGPFSIRLTSEG    6   FSIRLTSEG     0.693        Sequence      0.007653    44.48       NA      0.306429       1815.81    39.69       
+ 195     DRB1_0405      TDKNYEHIAAYHFDL    4   YEHIAAYHF     0.973        Sequence      0.121782     9.57       NA      0.423561        511.29    13.81   <=WB
+ 196     DRB1_0405      AFGAMAKKGQEDKLR    1   FGAMAKKGQ     0.480        Sequence      0.001651    73.31       NA      0.162631       8605.41    80.79       
+ 197     DRB1_0405      AGDGNIVAVDIKPRD    5   IVAVDIKPR     0.580        Sequence      0.031056    23.18       NA      0.236055       3888.25    60.12       
+ 198     DRB1_0405      SEGGAHLVQDDVIPA    6   LVQDDVIPA     0.640        Sequence      0.039143    20.32       NA      0.315697       1642.55    37.19       
+ 199     DRB1_0405      EGGAHLVQDDVIPAN    5   LVQDDVIPA     0.880        Sequence      0.160477     7.58       NA      0.348660       1149.81    28.74   <=WB
+ 200     DRB1_0405      TSEGGAHLVQDDVIP    5   AHLVQDDVI     0.780        Sequence      0.007533    44.75       NA      0.169429       7995.18    79.02       
+ 201     DRB1_0405      EPIFKDGLGCRACYE    3   FKDGLGCRA     0.813        Sequence      0.000987    81.92       NA      0.225035       4380.64    63.36       
+ 202     DRB1_0405      YHFDLSGKAFGAMAK    2   FDLSGKAFG     0.660        Sequence      0.001921    70.44       NA      0.341557       1241.66    30.51       
+ 203     DRB1_0405      DHYLALLVKYAAGDG    2   YLALLVKYA     0.740        Sequence      0.070874    14.09       NA      0.528832        163.68     3.36       
+ 204     DRB1_0405      DDVIPANWKPDTVYT    4   PANWKPDTV     0.407        Sequence      0.001986    69.80       NA      0.168675       8060.67    79.22       
+ 205     DRB1_0405      PRDSDEFIPMKSSWG    6   FIPMKSSWG     1.000        Sequence      0.234712     5.27       NA      0.504207        213.66     4.86   <=WB
+ 206     DRB1_0405      PVECSGEPVLVKITD    3   CSGEPVLVK     0.413        Sequence      0.000236    95.00       NA      0.179817       7145.22    76.22       
+ 207     DRB1_0405      FKDGLGCRACYEIKC    4   LGCRACYEI     0.520        Sequence      0.000146    95.00       NA      0.188928       6474.45    73.73       
+ 208     DRB1_0405      ANWKPDTVYTSKLQF    2   WKPDTVYTS     0.973        Sequence      0.103993    10.81       NA      0.372161        891.65    23.40       
+ 209     DRB1_0405      KKGQEDKLRKAGELT    2   GQEDKLRKA     0.300        Sequence      0.000338    93.93       NA      0.109843      15234.25    92.44       
+ 210     DRB1_0405      GSNPRGAAPDDHGGA    4   RGAAPDDHG     0.560        Sequence      0.002352    66.78       NA      0.064720      24822.91    95.00       
+ 211     DRB1_0405      AAYHFDLSGKAFGAM    2   YHFDLSGKA     0.967        Sequence      0.135398     8.79       NA      0.471542        304.23     7.67   <=WB
+ 212     DRB1_0405      KYAAGDGNIVAVDIK    1   YAAGDGNIV     0.560        Sequence      0.006345    47.78       NA      0.259837       3006.10    53.01       
+ 213     DRB1_0405      SNPRGAAPDDHGGAC    3   RGAAPDDHG     0.567        Sequence      0.001460    75.42       NA      0.058763      26475.52    95.00       
+ 214     DRB1_0405      DGLGCRACYEIKCKE    4   CRACYEIKC     0.527        Sequence      0.000173    95.00       NA      0.159119       8938.70    81.68       
+ 215     DRB1_0405      AHLVQDDVIPANWKP    2   LVQDDVIPA     0.887        Sequence      0.097767    11.31       NA      0.380258        816.86    21.70       
+ 216     DRB1_0405      CRACYEIKCKEPVEC    4   YEIKCKEPV     0.653        Sequence      0.000428    92.00       NA      0.174412       7575.53    77.67       
+ 217     DRB1_0405      EIKCKEPVECSGEPV    1   IKCKEPVEC     0.580        Sequence      0.000387    92.88       NA      0.107953      15548.99    92.78       
+ 218     DRB1_0405      KCKEPVECSGEPVLV    5   VECSGEPVL     0.753        Sequence      0.000848    84.09       NA      0.136434      11425.38    87.09       
+ 219     DRB1_0405      CSGEPVLVKITDKNY    5   VLVKITDKN     0.553        Sequence      0.015894    32.57       NA      0.255766       3141.47    54.23       
+ 220     DRB1_0405      KYPSGTKITFHIEKG    6   KITFHIEKG     0.380        Sequence      0.000908    83.16       NA      0.225916       4339.08    63.10       
+ 221     DRB1_0405      SIRLTSEGGAHLVQD    3   LTSEGGAHL     0.973        Sequence      0.023706    26.81       NA      0.308468       1776.18    39.17       
+ 222     DRB1_0405      AIGDKPGPNITATYG    3   DKPGPNITA     0.613        Sequence      0.001008    81.59       NA      0.099842      16975.22    94.27       
+ 223     DRB1_0405      PFSIRLTSEGGAHLV    3   IRLTSEGGA     0.400        Sequence      0.013362    35.10       NA      0.361781        997.64    25.62       
+ 224     DRB1_0405      LTLQFRRVKCKYPSG    4   FRRVKCKYP     0.973        Sequence      0.007715    44.34       NA      0.292991       2099.97    43.42       
+ 225     DRB1_0405      RKAGELTLQFRRVKC    4   ELTLQFRRV     0.300        Sequence      0.000429    91.97       NA      0.306846       1807.63    39.59       
+ 226     DRB1_0405      YGSKWLEARATFYGS    4   WLEARATFY     0.800        Sequence      0.017656    31.00       NA      0.386723        761.68    20.39       
+ 227     DRB1_0405      FRRVKCKYPSGTKIT    3   VKCKYPSGT     0.580        Sequence      0.000532    89.80       NA      0.204704       5458.48    69.33       
+ 228     DRB1_0405      VIPANWKPDTVYTSK    5   WKPDTVYTS     0.993        Sequence      0.226899     5.46       NA      0.340303       1258.63    30.82   <=WB
+ 229     DRB1_0405      KNYEHIAAYHFDLSG    2   YEHIAAYHF     0.833        Sequence      0.039654    20.16       NA      0.447308        395.44    10.38       
+ 230     DRB1_0405      RIDPKKPLKGPFSIR    4   KKPLKGPFS     0.620        Sequence      0.000666    87.30       NA      0.168751       8054.05    79.20       
+ 231     DRB1_0405      FSIRLTSEGGAHLVQ    4   LTSEGGAHL     0.840        Sequence      0.013565    34.87       NA      0.354732       1076.70    27.25       
+ 232     DRB1_0405      MAKKGQEDKLRKAGE    4   GQEDKLRKA     0.460        Sequence      0.000727    86.17       NA      0.107469      15630.63    92.87       
+ 233     DRB1_0405      ITATYGSKWLEARAT    4   YGSKWLEAR     0.307        Sequence      0.000514    90.15       NA      0.266016       2811.70    51.17       
+ 234     DRB1_0405      ATYGSKWLEARATFY    6   WLEARATFY     0.753        Sequence      0.001847    71.22       NA      0.384494        780.27    20.84       
+ 235     DRB1_0405      KDGLGCRACYEIKCK    3   LGCRACYEI     0.533        Sequence      0.000212    95.00       NA      0.166542       8248.86    79.79       
+ 236     DRB1_0405      IFKDGLGCRACYEIK    5   LGCRACYEI     0.360        Sequence      0.000298    94.79       NA      0.221755       4538.89    64.33       
+ 237     DRB1_0405      VQDDVIPANWKPDTV    4   VIPANWKPD     0.607        Sequence      0.003184    60.99       NA      0.176325       7420.35    77.16       
+ 238     DRB1_0405      PLKGPFSIRLTSEGG    5   FSIRLTSEG     0.887        Sequence      0.040092    20.02       NA      0.299162       1964.34    41.70       
+ 239     DRB1_0405      LGCRACYEIKCKEPV    4   ACYEIKCKE     0.127        Sequence      0.000201    95.00       NA      0.178659       7235.30    76.53       
+ 240     DRB1_0405      RRVKCKYPSGTKITF    2   VKCKYPSGT     0.520        Sequence      0.000293    94.89       NA      0.200902       5687.71    70.42       
+ 241     DRB1_0405      YGSNPRGAAPDDHGG    5   RGAAPDDHG     0.427        Sequence      0.001814    71.57       NA      0.077168      21695.01    95.00       
+ 242     DRB1_0405      DPKKPLKGPFSIRLT    5   LKGPFSIRL     0.653        Sequence      0.000724    86.23       NA      0.279064       2441.50    47.41       
+ 243     DRB1_0405      AYHFDLSGKAFGAMA    1   YHFDLSGKA     0.713        Sequence      0.023722    26.80       NA      0.432574        463.79    12.44       
+ 244     DRB1_0405      ITDKNYEHIAAYHFD    5   YEHIAAYHF     0.973        Sequence      0.127108     9.26       NA      0.388655        745.92    20.00   <=WB
+ 245     DRB1_0405      HYLALLVKYAAGDGN    4   LLVKYAAGD     0.587        Sequence      0.038749    20.44       NA      0.499510        224.80     5.22       
+ 246     DRB1_0405      CGYKDVDKPPFDGMT    2   YKDVDKPPF     0.753        Sequence      0.004029    56.41       NA      0.146837      10209.10    84.78       
+ 247     DRB1_0405      KPGPNITATYGSKWL    3   PNITATYGS     0.500        Sequence      0.004945    52.56       NA      0.224173       4421.69    63.62       
+ 248     DRB1_0405      AMAKKGQEDKLRKAG    3   KKGQEDKLR     0.373        Sequence      0.000981    82.02       NA      0.107586      15610.85    92.85       
+ 249     DRB1_0405      GAAPDDHGGACGYKD    4   DDHGGACGY     0.167        Sequence      0.000058    95.00       NA      0.058142      26654.01    95.00       
+ 250     DRB1_0405      MTACGNEPIFKDGLG    3   CGNEPIFKD     0.720        Sequence      0.000436    91.82       NA      0.188927       6474.52    73.73       
+ 251     DRB1_0405      GACGYKDVDKPPFDG    4   YKDVDKPPF     0.893        Sequence      0.014194    34.21       NA      0.150125       9852.29    83.95       
+ 252     DRB1_0405      GGAHLVQDDVIPANW    4   LVQDDVIPA     0.927        Sequence      0.187782     6.57       NA      0.376756        848.41    22.42   <=WB
+ 253     DRB1_0405      FHIEKGSNDHYLALL    2   IEKGSNDHY     0.547        Sequence      0.002476    65.75       NA      0.276899       2499.37    48.04       
+ 254     DRB1_0405      GAHLVQDDVIPANWK    3   LVQDDVIPA     0.980        Sequence      0.273044     4.45       NA      0.398322        671.84    18.11   <=WB
+ 255     DRB1_0405      SGKAFGAMAKKGQED    4   FGAMAKKGQ     0.913        Sequence      0.030347    23.50       NA      0.201449       5654.15    70.26       
+ 256     DRB1_0405      NEPIFKDGLGCRACY    4   FKDGLGCRA     0.660        Sequence      0.000796    84.91       NA      0.219878       4632.01    64.88       
+ 257     DRB1_0405      LLVKYAAGDGNIVAV    4   YAAGDGNIV     0.807        Sequence      0.018296    30.51       NA      0.372128        891.97    23.40       
+ 258     DRB1_0405      KGPFSIRLTSEGGAH    3   FSIRLTSEG     0.900        Sequence      0.100610    11.07       NA      0.317462       1611.48    36.71       
+ 259     DRB1_0405      EHIAAYHFDLSGKAF    5   YHFDLSGKA     0.960        Sequence      0.154216     7.87       NA      0.506644        208.10     4.69   <=WB
+ 260     DRB1_0405      SKWLEARATFYGSNP    3   LEARATFYG     0.620        Sequence      0.018081    30.67       NA      0.364194        971.93    25.11       
+ 261     DRB1_0405      GYKDVDKPPFDGMTA    2   KDVDKPPFD     0.367        Sequence      0.002843    63.21       NA      0.142354      10716.50    85.79       
+ 262     DRB1_0405      GQEDKLRKAGELTLQ    5   LRKAGELTL     0.913        Sequence      0.003322    60.09       NA      0.248152       3411.23    56.50       
+ 263     DRB1_0405      PANWKPDTVYTSKLQ    3   WKPDTVYTS     1.000        Sequence      0.281560     4.30       NA      0.380846        811.68    21.58   <=WB
+ 264     DRB1_0405      KAGELTLQFRRVKCK    3   ELTLQFRRV     0.467        Sequence      0.000537    89.70       NA      0.296466       2022.48    42.45       
+ 265     DRB1_0405      VDKPPFDGMTACGNE    5   FDGMTACGN     0.987        Sequence      0.017752    30.93       NA      0.215520       4855.66    66.16       
+ 266     DRB1_0405      GAMAKKGQEDKLRKA    4   KKGQEDKLR     0.267        Sequence      0.001183    79.04       NA      0.120544      13568.67    90.48       
+ 267     DRB1_0405      EARATFYGSNPRGAA    5   FYGSNPRGA     0.693        Sequence      0.028034    24.58       NA      0.324659       1490.76    34.78       
+ 268     DRB1_0405      DVDKPPFDGMTACGN    6   FDGMTACGN     0.920        Sequence      0.004447    54.45       NA      0.201617       5643.88    70.22       
+ 269     DRB1_0405      LEARATFYGSNPRGA    4   ATFYGSNPR     0.360        Sequence      0.008602    42.44       NA      0.286660       2248.86    45.22       
+ 270     DRB1_0405      KAFGAMAKKGQEDKL    2   FGAMAKKGQ     0.887        Sequence      0.010691    38.75       NA      0.183470       6868.31    75.23       
+ 271     DRB1_0405      GTKITFHIEKGSNDH    5   FHIEKGSND     1.000        Sequence      0.577420     1.40       NA      0.422318        518.22    14.01   <=SB
+ 272     DRB1_0405      SNDHYLALLVKYAAG    4   YLALLVKYA     0.993        Sequence      0.126770     9.28       NA      0.556964        120.73     2.05   <=WB
+ 273     DRB1_0405      NPRGAAPDDHGGACG    2   RGAAPDDHG     0.413        Sequence      0.000760    85.56       NA      0.054566      27705.50    95.00       
+ 274     DRB1_0405      VKYAAGDGNIVAVDI    2   YAAGDGNIV     0.787        Sequence      0.021280    28.29       NA      0.303768       1868.85    40.42       
+ 275     DRB1_0405      EPVLVKITDKNYEHI    3   LVKITDKNY     0.520        Sequence      0.097570    11.33       NA      0.317800       1605.60    36.62       
+ 276     DRB1_0405      ECSGEPVLVKITDKN    6   VLVKITDKN     0.700        Sequence      0.002168    68.30       NA      0.182245       6959.95    75.56       
+ 277     DRB1_0405      LRKAGELTLQFRRVK    5   ELTLQFRRV     0.280        Sequence      0.000820    84.53       NA      0.335967       1319.08    31.85       
+ 278     DRB1_0405      KWLEARATFYGSNPR    2   LEARATFYG     0.533        Sequence      0.006224    48.12       NA      0.339206       1273.65    31.08       
+ 279     DRB1_0405      KLRKAGELTLQFRRV    3   KAGELTLQF     0.360        Sequence      0.001124    79.82       NA      0.351422       1115.96    28.06       
+ 280     DRB1_0405      GDKPGPNITATYGSK    5   PNITATYGS     0.773        Sequence      0.003581    58.73       NA      0.120799      13531.29    90.43       
+ 281     DRB1_0405      LTSEGGAHLVQDDVI    6   AHLVQDDVI     0.553        Sequence      0.002082    69.01       NA      0.193128       6186.82    72.57       
+ 282     DRB1_0405      GLGCRACYEIKCKEP    3   CRACYEIKC     0.640        Sequence      0.000205    95.00       NA      0.159668       8885.77    81.54       
+ 283     DRB1_0405      AAPDDHGGACGYKDV    5   HGGACGYKD     0.567        Sequence      0.000107    95.00       NA      0.068082      23936.17    95.00       
+ 284     DRB1_0405      ATFYGSNPRGAAPDD    2   FYGSNPRGA     0.640        Sequence      0.030646    23.37       NA      0.247780       3424.99    56.61       
+ 285     DRB1_0405      PDDHGGACGYKDVDK    3   HGGACGYKD     0.680        Sequence      0.000463    91.24       NA      0.084215      20102.32    95.00       
+ 286     DRB1_0405      HIAAYHFDLSGKAFG    4   YHFDLSGKA     1.000        Sequence      0.248324     4.96       NA      0.499875        223.91     5.19   <=WB
+ 287     DRB1_0405      PIFKDGLGCRACYEI    2   FKDGLGCRA     0.607        Sequence      0.000551    89.44       NA      0.224645       4399.16    63.48       
+ 288     DRB1_0405      RVKCKYPSGTKITFH    4   KYPSGTKIT     0.207        Sequence      0.000211    95.00       NA      0.203518       5528.98    69.67       
+ 289     DRB1_0405      TYGSKWLEARATFYG    5   WLEARATFY     0.887        Sequence      0.008267    43.11       NA      0.381118        809.30    21.52       
+ 290     DRB1_0405      FDGMTACGNEPIFKD    3   MTACGNEPI     0.987        Sequence      0.024096    26.59       NA      0.281178       2386.29    46.80       
+ 291     DRB1_0405      CKYPSGTKITFHIEK    5   GTKITFHIE     0.280        Sequence      0.000509    90.26       NA      0.211586       5066.80    67.31       
+ 292     DRB1_0405      YPSGTKITFHIEKGS    5   KITFHIEKG     0.553        Sequence      0.001932    70.32       NA      0.225263       4369.84    63.30       
+ 293     DRB1_0405      PSGTKITFHIEKGSN    4   KITFHIEKG     0.453        Sequence      0.004575    53.97       NA      0.219321       4660.01    65.04       
+ 294     DRB1_0405      DKPPFDGMTACGNEP    4   FDGMTACGN     0.993        Sequence      0.041746    19.59       NA      0.216815       4788.10    65.78       
+ 295     DRB1_0405      APDDHGGACGYKDVD    4   HGGACGYKD     0.647        Sequence      0.000263    95.00       NA      0.068214      23902.01    95.00       
+ 296     DRB1_0405      GSKWLEARATFYGSN    3   WLEARATFY     0.760        Sequence      0.028399    24.40       NA      0.376746        848.50    22.43       
+ 297     DRB1_0405      NYEHIAAYHFDLSGK    4   IAAYHFDLS     0.413        Sequence      0.014380    34.01       NA      0.416876        549.64    14.88       
+ 298     DRB1_0405      NWKPDTVYTSKLQFG    1   WKPDTVYTS     0.653        Sequence      0.017133    31.45       NA      0.332542       1368.88    32.73       
+ 299     DRB1_0405      RATFYGSNPRGAAPD    3   FYGSNPRGA     0.860        Sequence      0.095435    11.51       NA      0.303282       1878.70    40.56       
+ 300     DRB1_0405      CYEIKCKEPVECSGE    3   IKCKEPVEC     0.793        Sequence      0.000771    85.35       NA      0.142468      10703.29    85.76       
+ 301     DRB1_0405      WKPDTVYTSKLQFGA    5   VYTSKLQFG     0.533        Sequence      0.007053    45.93       NA      0.297933       1990.64    42.03       
+ 302     DRB1_0405      TLQFRRVKCKYPSGT    3   FRRVKCKYP     0.960        Sequence      0.009200    41.32       NA      0.277243       2490.08    47.94       
+ 303     DRB1_0405      DHGGACGYKDVDKPP    3   GACGYKDVD     0.447        Sequence      0.000361    93.43       NA      0.082923      20385.31    95.00       
+ 304     DRB1_0405      LVKYAAGDGNIVAVD    3   YAAGDGNIV     0.847        Sequence      0.031622    22.93       NA      0.339837       1264.99    30.93       
+ 305     DRB1_0405      HLVQDDVIPANWKPD    1   LVQDDVIPA     0.673        Sequence      0.014060    34.35       NA      0.333975       1347.82    32.36       
+ 306     DRB1_0405      WLEARATFYGSNPRG    5   ATFYGSNPR     0.600        Sequence      0.003563    58.83       NA      0.265206       2836.45    51.41       
+ 307     DRB1_0405      HGGACGYKDVDKPPF    6   YKDVDKPPF     0.613        Sequence      0.001112    79.97       NA      0.139626      11037.52    86.39       
+ 308     DRB1_0405      AGELTLQFRRVKCKY    2   ELTLQFRRV     0.287        Sequence      0.000181    95.00       NA      0.284381       2305.01    45.87       
+ 309     DRB1_0405      AIWRIDPKKPLKGPF    2   WRIDPKKPL     0.767        Sequence      0.022786    27.35       NA      0.220010       4625.40    64.84       
+ 310     DRB1_0405      GKAFGAMAKKGQEDK    3   FGAMAKKGQ     0.953        Sequence      0.049259    17.74       NA      0.193006       6194.99    72.60       
+ 311     DRB1_0405      IAAYHFDLSGKAFGA    3   YHFDLSGKA     0.993        Sequence      0.280333     4.32       NA      0.511042        198.43     4.40   <=WB
+ 312     DRB1_0405      ELTLQFRRVKCKYPS    5   FRRVKCKYP     0.953        Sequence      0.003864    57.27       NA      0.309113       1763.83    39.00       
+ 313     DRB1_0405      DLSGKAFGAMAKKGQ    6   FGAMAKKGQ     0.660        Sequence      0.002451    65.96       NA      0.213581       4958.60    66.73       
+ 314     DRB1_0405      PKKPLKGPFSIRLTS    4   LKGPFSIRL     0.820        Sequence      0.001111    79.99       NA      0.289128       2189.61    44.50       
+ 315     DRB1_0405      YKDVDKPPFDGMTAC    1   KDVDKPPFD     0.433        Sequence      0.000430    91.95       NA      0.118038      13941.61    90.93       
+ 316     DRB1_0405      GCRACYEIKCKEPVE    5   YEIKCKEPV     0.747        Sequence      0.000692    86.82       NA      0.174847       7539.96    77.56       
+ 317     DRB1_0405      CGNEPIFKDGLGCRA    6   FKDGLGCRA     0.333        Sequence      0.000557    89.33       NA      0.195990       5998.17    71.77       
+ 318     DRB1_0405      RACYEIKCKEPVECS    3   YEIKCKEPV     0.507        Sequence      0.000702    86.64       NA      0.178069       7281.64    76.69       
+ 319     DRB1_0405      VKITDKNYEHIAAYH    5   KNYEHIAAY     0.267        Sequence      0.001645    73.37       NA      0.241685       3658.47    58.44       
+ 320     DRB1_0405      ACGNEPIFKDGLGCR    5   PIFKDGLGC     0.360        Sequence      0.000184    95.00       NA      0.146067      10294.51    84.97       
+ 321     DRB1_0405      EPVECSGEPVLVKIT    2   VECSGEPVL     0.567        Sequence      0.000513    90.17       NA      0.194567       6091.24    72.17       
+ 322     DRB1_0405      DKLRKAGELTLQFRR    2   LRKAGELTL     0.667        Sequence      0.002374    66.60       NA      0.333383       1356.48    32.51       
+ 323     DRB1_0405      PPFDGMTACGNEPIF    2   FDGMTACGN     0.520        Sequence      0.013409    35.04       NA      0.288377       2207.47    44.73       
+ 324     DRB1_0405      VLVKITDKNYEHIAA    2   VKITDKNYE     0.647        Sequence      0.015826    32.63       NA      0.315839       1640.03    37.15       
+ 325     DRB1_0405      HIEKGSNDHYLALLV    1   IEKGSNDHY     0.433        Sequence      0.000600    88.53       NA      0.270610       2675.36    49.81       
+ 326     DRB1_0405      SGEPVLVKITDKNYE    5   LVKITDKNY     0.493        Sequence      0.056820    16.21       NA      0.277871       2473.22    47.76       
+ 327     DRB1_0405      TATYGSKWLEARATF    3   YGSKWLEAR     0.373        Sequence      0.000496    90.54       NA      0.265702       2821.27    51.26       
+ 328     DRB1_0405      LQFRRVKCKYPSGTK    2   FRRVKCKYP     0.787        Sequence      0.003761    57.80       NA      0.254103       3198.51    54.72       
+ 329     DRB1_0405      GSNDHYLALLVKYAA    5   YLALLVKYA     0.980        Sequence      0.069469    14.29       NA      0.569474        105.45     1.66       
+ 330     DRB1_0405      VECSGEPVLVKITDK    4   GEPVLVKIT     0.340        Sequence      0.000152    95.00       NA      0.191014       6329.96    73.15       
+ 331     DRB1_0405      KGQEDKLRKAGELTL    6   LRKAGELTL     0.687        Sequence      0.000746    85.82       NA      0.227054       4285.98    62.77       
+ 332     DRB1_0405      PNITATYGSKWLEAR    2   ITATYGSKW     0.493        Sequence      0.002053    69.25       NA      0.261891       2940.03    52.40       
+ 333     DRB1_0405      HFDLSGKAFGAMAKK    3   LSGKAFGAM     0.193        Sequence      0.000494    90.58       NA      0.265448       2829.03    51.34       
+ 334     DRB1_0405      TKITFHIEKGSNDHY    4   FHIEKGSND     1.000        Sequence      0.673642     0.96       NA      0.464884        326.96     8.36   <=SB
+ 335     DRB1_0405      DVIPANWKPDTVYTS    6   WKPDTVYTS     0.920        Sequence      0.038884    20.40       NA      0.285728       2271.66    45.49       
+ 336     DRB1_0405      CKEPVECSGEPVLVK    4   VECSGEPVL     0.833        Sequence      0.002639    64.53       NA      0.177057       7361.81    76.96       
+ 337     DRB1_0405      IPANWKPDTVYTSKL    4   WKPDTVYTS     1.000        Sequence      0.237053     5.22       NA      0.377569        840.98    22.25   <=WB
+ 338     DRB1_0405      IEKGSNDHYLALLVK    5   NDHYLALLV     0.513        Sequence      0.000673    87.17       NA      0.301253       1920.40    41.13       
+ 339     DRB1_0405      GPFSIRLTSEGGAHL    2   FSIRLTSEG     0.633        Sequence      0.026708    25.22       NA      0.338681       1280.91    31.21       
+ 340     DRB1_0405      KITDKNYEHIAAYHF    6   YEHIAAYHF     0.847        Sequence      0.025931    25.61       NA      0.406256        616.57    16.65       
+ 341     DRB1_0405      FDLSGKAFGAMAKKG    4   GKAFGAMAK     0.413        Sequence      0.000544    89.57       NA      0.231551       4082.43    61.45       
+ 342     DRB1_0405      KGSNDHYLALLVKYA    6   YLALLVKYA     0.913        Sequence      0.017477    31.15       NA      0.536908        149.99     2.94       
+ 343     DRB1_0405      PFDGMTACGNEPIFK    4   MTACGNEPI     0.900        Sequence      0.015271    33.16       NA      0.302097       1902.94    40.90       
+ 344     DRB1_0405      LALLVKYAAGDGNIV    3   LVKYAAGDG     0.360        Sequence      0.015283    33.15       NA      0.364365        970.13    25.08       
+ 345     DRB1_0405      DKNYEHIAAYHFDLS    3   YEHIAAYHF     0.987        Sequence      0.135037     8.81       NA      0.433156        460.87    12.35   <=WB
+ 346     DRB1_0405      GEPVLVKITDKNYEH    4   LVKITDKNY     0.460        Sequence      0.105430    10.70       NA      0.294284       2070.80    43.07       
+ 347     DRB1_0405      FYGSNPRGAAPDDHG    3   SNPRGAAPD     0.187        Sequence      0.001004    81.66       NA      0.145518      10355.84    85.09       
+ 348     DRB1_0405      PVLVKITDKNYEHIA    3   VKITDKNYE     0.653        Sequence      0.063660    15.11       NA      0.321997       1534.32    35.50       
+ 349     DRB1_0405      LSGKAFGAMAKKGQE    5   FGAMAKKGQ     0.887        Sequence      0.011579    37.43       NA      0.234758       3943.20    60.50       
+ 350     DRB1_0405      SGTKITFHIEKGSND    6   FHIEKGSND     0.980        Sequence      0.207149     5.96       NA      0.366756        945.35    24.56   <=WB
+ 351     DRB1_0405      NDHYLALLVKYAAGD    3   YLALLVKYA     0.987        Sequence      0.197933     6.24       NA      0.541727        142.37     2.71   <=WB
+ 352     DRB1_0405      ITFHIEKGSNDHYLA    2   FHIEKGSND     0.980        Sequence      0.297153     4.02       NA      0.453647        369.23     9.61   <=WB
+ 353     DRB1_0405      IRLTSEGGAHLVQDD    2   LTSEGGAHL     0.873        Sequence      0.008821    42.00       NA      0.284882       2292.55    45.73       
+ 354     DRB1_0405      GGACGYKDVDKPPFD    5   YKDVDKPPF     0.887        Sequence      0.005377    50.92       NA      0.147880      10094.54    84.51       
+ 355     DRB1_0405      YEHIAAYHFDLSGKA    6   YHFDLSGKA     0.733        Sequence      0.060278    15.64       NA      0.472037        302.61     7.61       
+ 356     DRB1_0405      QEDKLRKAGELTLQF    4   LRKAGELTL     0.893        Sequence      0.004477    54.34       NA      0.306971       1805.19    39.55       
+ 357     DRB1_0405      YEIKCKEPVECSGEP    2   IKCKEPVEC     0.760        Sequence      0.000833    84.33       NA      0.128892      12396.82    88.74       
+ 358     DRB1_0405      DDHGGACGYKDVDKP    4   GACGYKDVD     0.360        Sequence      0.000292    94.91       NA      0.084325      20078.41    95.00       
+ 359     DRB1_0405      DGMTACGNEPIFKDG    2   MTACGNEPI     0.940        Sequence      0.010152    39.61       NA      0.224564       4403.02    63.50       
+ 360     DRB1_0405      TFYGSNPRGAAPDDH    1   FYGSNPRGA     0.427        Sequence      0.005375    50.93       NA      0.204942       5444.45    69.26       
+ 361     DRB1_0405      AKKGQEDKLRKAGEL    3   GQEDKLRKA     0.467        Sequence      0.000487    90.73       NA      0.112804      14753.92    91.89       
+ 362     DRB1_0405      GPNITATYGSKWLEA    3   ITATYGSKW     0.787        Sequence      0.005440    50.69       NA      0.248866       3384.98    56.29       
+ 363     DRB1_0405      ALLVKYAAGDGNIVA    5   YAAGDGNIV     0.480        Sequence      0.015272    33.16       NA      0.362571        989.14    25.45       
+ 364     DRB1_0405      LKGPFSIRLTSEGGA    4   FSIRLTSEG     0.907        Sequence      0.073823    13.73       NA      0.319636       1574.02    36.14       
+ 365     DRB1_0405      QDDVIPANWKPDTVY    3   VIPANWKPD     0.667        Sequence      0.003883    57.17       NA      0.178455       7251.29    76.58       
+ 366     DRB1_0405      KPPFDGMTACGNEPI    3   FDGMTACGN     0.907        Sequence      0.040049    20.04       NA      0.278032       2468.91    47.71       
+ 367     DRB1_0405      KCKYPSGTKITFHIE    6   GTKITFHIE     0.140        Sequence      0.000291    94.94       NA      0.210971       5100.63    67.49       
+ 368     DRB1_0405      QFRRVKCKYPSGTKI    1   FRRVKCKYP     0.540        Sequence      0.001542    74.47       NA      0.231373       4090.30    61.50       
+ 369     DRB1_0405      IWRIDPKKPLKGPFS    3   IDPKKPLKG     0.493        Sequence      0.003216    60.78       NA      0.195437       6034.17    71.93       
+ 370     DRB1_0405      PRGAAPDDHGGACGY    3   AAPDDHGGA     0.487        Sequence      0.000251    95.00       NA      0.054057      27858.50    95.00       
+ 371     DRB1_0405      ACGYKDVDKPPFDGM    3   YKDVDKPPF     0.893        Sequence      0.012519    36.15       NA      0.159765       8876.44    81.52       
+ 372     DRB1_0405      VKCKYPSGTKITFHI    5   PSGTKITFH     0.240        Sequence      0.000170    95.00       NA      0.210534       5124.80    67.62       
+ 373     DRB1_0405      RLTSEGGAHLVQDDV    1   LTSEGGAHL     0.653        Sequence      0.002604    64.76       NA      0.239805       3733.65    59.00       
+ 374     DRB1_0405      PGPNITATYGSKWLE    4   ITATYGSKW     0.693        Sequence      0.004289    55.07       NA      0.218054       4724.34    65.41       
+ 375     DRB1_0405      IGDKPGPNITATYGS    6   PNITATYGS     0.320        Sequence      0.001065    80.70       NA      0.106437      15806.14    93.06       
+ 376     DRB1_0405      IKCKEPVECSGEPVL    6   VECSGEPVL     0.487        Sequence      0.000465    91.20       NA      0.120136      13628.70    90.55       
+ 377     DRB1_0405      GELTLQFRRVKCKYP    6   FRRVKCKYP     0.633        Sequence      0.000917    83.02       NA      0.302735       1889.85    40.72       
+ 378     DRB1_0405      LVQDDVIPANWKPDT    5   VIPANWKPD     0.407        Sequence      0.002517    65.41       NA      0.250364       3330.56    55.84       
+ 379     DRB1_0405      DKPGPNITATYGSKW    4   PNITATYGS     0.653        Sequence      0.004409    54.59       NA      0.181327       7029.43    75.81       
+ 380     DRB1_0405      KITFHIEKGSNDHYL    3   FHIEKGSND     1.000        Sequence      0.618677     1.18       NA      0.507554        206.06     4.63   <=SB
+ 381     DRB1_0405      KKPLKGPFSIRLTSE    3   LKGPFSIRL     0.753        Sequence      0.001967    69.96       NA      0.313537       1681.39    37.79       
+ 382     DRB1_0405      ACYEIKCKEPVECSG    4   IKCKEPVEC     0.633        Sequence      0.000580    88.90       NA      0.155730       9272.55    82.53       
+ 383     DRB1_0405      EKGSNDHYLALLVKY    4   NDHYLALLV     0.553        Sequence      0.000888    83.47       NA      0.345153       1194.28    29.62       
+ 384     DRB1_0405      YLALLVKYAAGDGNI    3   LLVKYAAGD     0.640        Sequence      0.029943    23.68       NA      0.420787        526.87    14.25       
+ 385     DRB1_0405      KDVDKPPFDGMTACG    6   PFDGMTACG     0.153        Sequence      0.000114    95.00       NA      0.076677      21810.57    95.00       
+ 386     DRB1_0405      TACGNEPIFKDGLGC    2   CGNEPIFKD     0.653        Sequence      0.000177    95.00       NA      0.139830      11013.19    86.34       
+ 387     DRB1_0405      RGAAPDDHGGACGYK    2   AAPDDHGGA     0.393        Sequence      0.000075    95.00       NA      0.051821      28540.70    95.00       
+ 388     DRB1_0405      TFHIEKGSNDHYLAL    1   FHIEKGSND     0.907        Sequence      0.065995    14.78       NA      0.371062        902.32    23.63       
+ 389     DRB1_0405      WRIDPKKPLKGPFSI    2   IDPKKPLKG     0.620        Sequence      0.000801    84.83       NA      0.168528       8073.50    79.26       
+ 390     DRB1_0405      NITATYGSKWLEARA    2   TATYGSKWL     0.253        Sequence      0.000722    86.26       NA      0.268184       2746.51    50.52       
+ 391     DRB1_0405      KEPVECSGEPVLVKI    3   VECSGEPVL     0.807        Sequence      0.002512    65.45       NA      0.200134       5735.17    70.63       
+ 392     DRB1_0405      IDPKKPLKGPFSIRL    3   KKPLKGPFS     0.560        Sequence      0.000662    87.38       NA      0.262879       2908.77    52.11       
+ 393     DRB1_0405      ARATFYGSNPRGAAP    4   FYGSNPRGA     0.787        Sequence      0.060150    15.66       NA      0.321568       1541.46    35.62       
+ 394     DRB1_0405      LVKITDKNYEHIAAY    1   VKITDKNYE     0.407        Sequence      0.002211    67.94       NA      0.269574       2705.51    50.11       
+ 395     DRB1_0405      GNEPIFKDGLGCRAC    5   FKDGLGCRA     0.487        Sequence      0.000626    88.05       NA      0.194764       6078.27    72.11       
+ 396     DRB1_0405      EDKLRKAGELTLQFR    3   LRKAGELTL     0.880        Sequence      0.007318    45.27       NA      0.329357       1416.87    33.54       
+ 397     DRB1_0405      GMTACGNEPIFKDGL    1   MTACGNEPI     0.767        Sequence      0.001690    72.89       NA      0.231899       4067.09    61.34       
+ 398     DRB1_0405      FGAMAKKGQEDKLRK    5   KKGQEDKLR     0.147        Sequence      0.001005    81.64       NA      0.139585      11042.42    86.39       
+ 399     DRB1_0405      KPLKGPFSIRLTSEG    6   FSIRLTSEG     0.693        Sequence      0.007653    44.48       NA      0.306429       1815.81    39.69       
+ 400     DRB1_0405      TDKNYEHIAAYHFDL    4   YEHIAAYHF     0.973        Sequence      0.121782     9.57       NA      0.423561        511.29    13.81   <=WB
+ 401     DRB1_0405      AFGAMAKKGQEDKLR    1   FGAMAKKGQ     0.480        Sequence      0.001651    73.31       NA      0.162631       8605.41    80.79       
+ 402     DRB1_0405      SEGGAHLVQDDVIPA    6   LVQDDVIPA     0.640        Sequence      0.039143    20.32       NA      0.315697       1642.55    37.19       
+ 403     DRB1_0405      EGGAHLVQDDVIPAN    5   LVQDDVIPA     0.880        Sequence      0.160477     7.58       NA      0.348660       1149.81    28.74   <=WB
+ 404     DRB1_0405      TSEGGAHLVQDDVIP    5   AHLVQDDVI     0.780        Sequence      0.007533    44.75       NA      0.169429       7995.18    79.02       
+ 405     DRB1_0405      EPIFKDGLGCRACYE    3   FKDGLGCRA     0.813        Sequence      0.000987    81.92       NA      0.225035       4380.64    63.36       
+ 406     DRB1_0405      YHFDLSGKAFGAMAK    2   FDLSGKAFG     0.660        Sequence      0.001921    70.44       NA      0.341557       1241.66    30.51       
+ 407     DRB1_0405      DHYLALLVKYAAGDG    2   YLALLVKYA     0.740        Sequence      0.070874    14.09       NA      0.528832        163.68     3.36       
+ 408     DRB1_0405      DDVIPANWKPDTVYT    4   PANWKPDTV     0.407        Sequence      0.001986    69.80       NA      0.168675       8060.67    79.22       
+ 409     DRB1_0405 IFYDVFFAVANGNELLLDLS    5   FFAVANGNE     0.893        Sequence      0.128204     9.20       NA      0.646926         45.61     0.33   <=WB
+ 410     DRB1_0405 VLDGLVMTTISSSKDCMGEA    6   MTTISSSKD     0.880        Sequence      0.056627    16.25       NA      0.500155        223.23     5.17       
+ 411     DRB1_0405 MKKIQDCYVENGLISRVLDG    3   IQDCYVENG     0.440        Sequence      0.001213    78.65       NA      0.346276       1179.86    29.34       
+ 412     DRB1_0405 ALLVLALLVTQALGVKMAET    6   LLVTQALGV     0.353        Sequence      0.001148    79.50       NA      0.349016       1145.39    28.65       
+ 413     DRB1_0405 LISRVLDGLVMTTISSSKDC   10   MTTISSSKD     0.513        Sequence      0.009483    40.80       NA      0.474910        293.35     7.34       
+ 414     DRB1_0405 AMKKIQDCYVENGLISRVLD    4   IQDCYVENG     0.507        Sequence      0.001623    73.61       NA      0.349355       1141.20    28.57       
+ 415     DRB1_0405 NGLISRVLDGLVMTTISSSK   10   LVMTTISSS     0.507        Sequence      0.003044    61.90       NA      0.458150        351.67     9.09       
+ 416     DRB1_0405 QDCYVENGLISRVLDGLVMT    9   ISRVLDGLV     0.720        Sequence      0.001652    73.30       NA      0.402042        645.34    17.41       
+ 417     DRB1_0405 RVLDGLVMTTISSSKDCMGE    7   MTTISSSKD     0.900        Sequence      0.062790    15.25       NA      0.505286        211.18     4.79       
+ 418     DRB1_0405 CYVENGLISRVLDGLVMTTI    7   ISRVLDGLV     0.847        Sequence      0.002585    64.88       NA      0.406811        612.88    16.56       
+ 419     DRB1_0405 NATEPERTAMKKIQDCYVEN    9   MKKIQDCYV     0.867        Sequence      0.003961    56.77       NA      0.322584       1524.61    35.34       
+ 420     DRB1_0405 TEPERTAMKKIQDCYVENGL    7   MKKIQDCYV     0.867        Sequence      0.010615    38.86       NA      0.323208       1514.35    35.17       
+ 421     DRB1_0405 TAMKKIQDCYVENGLISRVL    5   IQDCYVENG     0.440        Sequence      0.002222    67.85       NA      0.354610       1078.12    27.28       
+ 422     DRB1_0405 ENGLISRVLDGLVMTTISSS    4   ISRVLDGLV     0.707        Sequence      0.001730    72.47       NA      0.424304        507.20    13.69       
+ 423     DRB1_0405 DCMGEAVQNTVEDLKLNTLG    7   QNTVEDLKL     0.320        Sequence      0.001552    74.36       NA      0.235195       3924.60    60.37       
+ 424     DRB1_0405 DCYVENGLISRVLDGLVMTT    8   ISRVLDGLV     0.820        Sequence      0.002576    64.94       NA      0.407206        610.27    16.49       
+ 425     DRB1_0405 KVNATEPERTAMKKIQDCYV    8   RTAMKKIQD     0.400        Sequence      0.000546    89.54       NA      0.295371       2046.59    42.76       
+ 426     DRB1_0405 LTKVNATEPERTAMKKIQDC    3   VNATEPERT     0.673        Sequence      0.001203    78.78       NA      0.226100       4330.45    63.05       
+ 427     DRB1_0405 DGLVMTTISSSKDCMGEAVQ    4   MTTISSSKD     0.807        Sequence      0.030972    23.22       NA      0.469960        309.49     7.83       
+ 428     DRB1_0405 LDGLVMTTISSSKDCMGEAV    5   MTTISSSKD     0.833        Sequence      0.045447    18.64       NA      0.491410        245.39     5.89       
+ 429     DRB1_0405 KKIQDCYVENGLISRVLDGL    2   IQDCYVENG     0.280        Sequence      0.000629    87.99       NA      0.349205       1143.05    28.60       
+ 430     DRB1_0405 SSKDCMGEAVQNTVEDLKLN    7   EAVQNTVED     0.413        Sequence      0.001224    78.51       NA      0.222386       4508.01    64.14       
+ 431     DRB1_0405 SKDCMGEAVQNTVEDLKLNT    6   EAVQNTVED     0.373        Sequence      0.001455    75.48       NA      0.222921       4481.99    63.98       
+ 432     DRB1_0405 KIQDCYVENGLISRVLDGLV   11   ISRVLDGLV     0.247        Sequence      0.000524    89.94       NA      0.374393        870.38    22.92       
+ 433     DRB1_0405 GLISRVLDGLVMTTISSSKD    9   LVMTTISSS     0.633        Sequence      0.007778    44.19       NA      0.475105        292.73     7.32       
+ 434     DRB1_0405 CMGEAVQNTVEDLKLNTLGR    9   VEDLKLNTL     0.467        Sequence      0.001889    70.78       NA      0.241697       3657.99    58.43       
+ 435     DRB1_0405 ATEPERTAMKKIQDCYVENG    8   MKKIQDCYV     0.920        Sequence      0.010166    39.59       NA      0.316838       1622.40    36.88       
+ 436     DRB1_0405 RGALLVLALLVTQALGVKMA    8   LLVTQALGV     0.467        Sequence      0.001044    81.03       NA      0.340055       1262.01    30.88       
+ 437     DRB1_0405 PERTAMKKIQDCYVENGLIS    5   MKKIQDCYV     0.767        Sequence      0.009165    41.38       NA      0.340932       1250.09    30.67       
+ 438     DRB1_0405 MTTISSSKDCMGEAVQNTVE    3   ISSSKDCMG     0.780        Sequence      0.001448    75.58       NA      0.246574       3469.97    56.98       
+ 439     DRB1_0405 GLVMTTISSSKDCMGEAVQN    3   MTTISSSKD     0.760        Sequence      0.015968    32.50       NA      0.443222        413.32    10.88       
+ 440     DRB1_0405 ISRVLDGLVMTTISSSKDCM    9   MTTISSSKD     0.707        Sequence      0.021410    28.20       NA      0.497191        230.51     5.41       
+ 441     DRB1_0405 RTAMKKIQDCYVENGLISRV    3   MKKIQDCYV     0.620        Sequence      0.004624    53.78       NA      0.362538        989.50    25.46       
+ 442     DRB1_0405 LLVLALLVTQALGVKMAETC    5   LLVTQALGV     0.327        Sequence      0.001008    81.59       NA      0.345223       1193.38    29.61       
+ 443     DRB1_0405 EPERTAMKKIQDCYVENGLI    6   MKKIQDCYV     0.820        Sequence      0.010141    39.63       NA      0.335326       1328.26    32.01       
+ 444     DRB1_0405 TKVNATEPERTAMKKIQDCY    2   VNATEPERT     0.480        Sequence      0.000747    85.80       NA      0.204189       5488.98    69.48       
+ 445     DRB1_0405 GALLVLALLVTQALGVKMAE    7   LLVTQALGV     0.407        Sequence      0.001126    79.79       NA      0.342077       1234.70    30.39       
+ 446     DRB1_0405 LVMTTISSSKDCMGEAVQNT    5   ISSSKDCMG     0.520        Sequence      0.002868    63.04       NA      0.377151        844.79    22.34       
+ 447     DRB1_0405 ERTAMKKIQDCYVENGLISR    4   MKKIQDCYV     0.720        Sequence      0.006918    46.27       NA      0.355072       1072.75    27.17       
+ 448     DRB1_0405 SRVLDGLVMTTISSSKDCMG    8   MTTISSSKD     0.913        Sequence      0.061549    15.44       NA      0.505958        209.65     4.74       
+ 449     DRB1_0405 VMTTISSSKDCMGEAVQNTV    4   ISSSKDCMG     0.733        Sequence      0.001837    71.33       NA      0.305207       1839.97    40.01       
+ 450     DRB1_0405 SSSKDCMGEAVQNTVEDLKL    8   EAVQNTVED     0.533        Sequence      0.000993    81.83       NA      0.219937       4629.06    64.86       
+ 451     DRB1_0405 MRGALLVLALLVTQALGVKM    9   LLVTQALGV     0.327        Sequence      0.000719    86.32       NA      0.324486       1493.55    34.83       
+ 452     DRB1_0405 KDCMGEAVQNTVEDLKLNTL    8   QNTVEDLKL     0.333        Sequence      0.001467    75.33       NA      0.237995       3807.49    59.54       
+ 453     DRB1_0405 TTISSSKDCMGEAVQNTVED    2   ISSSKDCMG     0.493        Sequence      0.001045    81.02       NA      0.209968       5156.28    67.78       
+ 454     DRB1_0405 VNATEPERTAMKKIQDCYVE   10   MKKIQDCYV     0.667        Sequence      0.001354    76.81       NA      0.312599       1698.54    38.05       
+ 455     DRB1_0405 TISSSKDCMGEAVQNTVEDL   10   EAVQNTVED     0.240        Sequence      0.000497    90.52       NA      0.198650       5828.00    71.04       
+ 456     DRB1_0405 IQDCYVENGLISRVLDGLVM   10   ISRVLDGLV     0.527        Sequence      0.001016    81.47       NA      0.389607        738.28    19.82       
+ 457     DRB1_0405 VENGLISRVLDGLVMTTISS    5   ISRVLDGLV     0.860        Sequence      0.002066    69.14       NA      0.400698        654.79    17.66       
+ 458     DRB1_0405 LVLALLVTQALGVKMAETCP    6   VTQALGVKM     0.400        Sequence      0.000890    83.44       NA      0.344355       1204.64    29.83       
+ 459     DRB1_0405 ISSSKDCMGEAVQNTVEDLK    9   EAVQNTVED     0.547        Sequence      0.000872    83.72       NA      0.191376       6305.22    73.05       
+ 460     DRB1_0405 YVENGLISRVLDGLVMTTIS    6   ISRVLDGLV     0.840        Sequence      0.002400    66.38       NA      0.404516        628.29    16.95       
+ 461     DRB1_0405        VFFAVANGNELLL    1   FFAVANGNE     0.853        Sequence      0.153216     7.92       NA      0.569711        105.18     1.65   <=WB
+ 462     DRB1_0405        VLALLVTQALGVK    3   LLVTQALGV     0.620        Sequence      0.009341    41.06       NA      0.314638       1661.48    37.48       
+ 463     DRB1_0405        SLTKVNATEPERT    2   TKVNATEPE     0.580        Sequence      0.006108    48.47       NA      0.136395      11430.20    87.09       
+ 464     DRB1_0405        GVKMAETCPIFYD    1   VKMAETCPI     0.607        Sequence      0.005217    51.53       NA      0.266357       2801.34    51.07       
+ 465     DRB1_0405        LVLALLVTQALGV    2   LALLVTQAL     0.620        Sequence      0.003020    62.05       NA      0.264388       2861.66    51.66       
+ 466     DRB1_0405        QALGVKMAETCPI    4   VKMAETCPI     0.867        Sequence      0.003868    57.25       NA      0.260647       2979.87    52.77       
+ 467     DRB1_0405        RGALLVLALLVTQ    3   LLVLALLVT     0.693        Sequence      0.000669    87.25       NA      0.190315       6378.01    73.34       
+ 468     DRB1_0405        TISSSKDCMGEAV    1   ISSSKDCMG     0.960        Sequence      0.002861    63.09       NA      0.127396      12599.11    89.07       
+ 469     DRB1_0405        SRVLDGLVMTTIS    3   LDGLVMTTI     0.567        Sequence      0.000662    87.38       NA      0.218930       4679.77    65.16       
+ 470     DRB1_0405        VNATEPERTAMKK    3   TEPERTAMK     0.713        Sequence      0.000414    92.30       NA      0.076226      21917.26    95.00       
+ 471     DRB1_0405        ISSSKDCMGEAVQ    4   KDCMGEAVQ     0.180        Sequence      0.000330    94.10       NA      0.089811      18921.29    95.00       
+ 472     DRB1_0405        LTKVNATEPERTA    3   VNATEPERT     0.713        Sequence      0.006285    47.95       NA      0.124653      12978.64    89.67       
+ 473     DRB1_0405        DCYVENGLISRVL    3   VENGLISRV     0.353        Sequence      0.000554    89.39       NA      0.214957       4885.33    66.32       
+ 474     DRB1_0405        GALLVLALLVTQA    3   LVLALLVTQ     0.240        Sequence      0.000940    82.66       NA      0.212449       5019.71    67.06       
+ 475     DRB1_0405        ISRVLDGLVMTTI    2   RVLDGLVMT     0.193        Sequence      0.000669    87.25       NA      0.246697       3465.36    56.94       
+ 476     DRB1_0405        GEAVQNTVEDLKL    1   EAVQNTVED     0.520        Sequence      0.004468    54.37       NA      0.138271      11200.53    86.68       
+ 477     DRB1_0405        NGLISRVLDGLVM    3   ISRVLDGLV     0.940        Sequence      0.020132    29.08       NA      0.304606       1851.98    40.18       
+ 478     DRB1_0405        GLISRVLDGLVMT    2   ISRVLDGLV     0.927        Sequence      0.010400    39.21       NA      0.311034       1727.55    38.48       
+ 479     DRB1_0405        MRGALLVLALLVT    1   RGALLVLAL     0.220        Sequence      0.000285    95.00       NA      0.225056       4379.64    63.36       
+ 480     DRB1_0405        DGLVMTTISSSKD    4   MTTISSSKD     0.753        Sequence      0.231071     5.36       NA      0.336914       1305.63    31.63   <=WB
+ 481     DRB1_0405        TKVNATEPERTAM    2   VNATEPERT     0.907        Sequence      0.004110    55.99       NA      0.108129      15519.41    92.75       
+ 482     DRB1_0405        DLSLTKVNATEPE    1   LSLTKVNAT     0.533        Sequence      0.006378    47.69       NA      0.176424       7412.40    77.13       
+ 483     DRB1_0405        KVNATEPERTAMK    1   VNATEPERT     0.827        Sequence      0.002000    69.69       NA      0.100078      16931.93    94.23       
+ 484     DRB1_0405        PERTAMKKIQDCY    2   RTAMKKIQD     0.780        Sequence      0.000729    86.13       NA      0.106276      15833.69    93.09       
+ 485     DRB1_0405        LDGLVMTTISSSK    3   LVMTTISSS     0.873        Sequence      0.047501    18.14       NA      0.351098       1119.88    28.14       
+ 486     DRB1_0405        SSKDCMGEAVQNT    2   KDCMGEAVQ     0.227        Sequence      0.000503    90.39       NA      0.090463      18788.28    95.00       
+ 487     DRB1_0405        VENGLISRVLDGL    3   GLISRVLDG     0.340        Sequence      0.000891    83.42       NA      0.180770       7071.92    75.96       
+ 488     DRB1_0405        KDCMGEAVQNTVE    2   CMGEAVQNT     0.367        Sequence      0.000414    92.30       NA      0.102277      16533.83    93.82       
+ 489     DRB1_0405        CMGEAVQNTVEDL    3   EAVQNTVED     0.820        Sequence      0.004162    55.72       NA      0.113217      14688.14    91.82       
+ 490     DRB1_0405        RVLDGLVMTTISS    4   GLVMTTISS     0.467        Sequence      0.001040    81.09       NA      0.240502       3705.60    58.79       
+ 491     DRB1_0405        EAVQNTVEDLKLN    3   QNTVEDLKL     0.747        Sequence      0.008610    42.42       NA      0.130099      12235.98    88.47       
+ 492     DRB1_0405        SKDCMGEAVQNTV    3   CMGEAVQNT     0.573        Sequence      0.000458    91.35       NA      0.106329      15824.62    93.08       
+ 493     DRB1_0405        LGVKMAETCPIFY    2   VKMAETCPI     0.927        Sequence      0.007953    43.80       NA      0.331794       1380.00    32.93       
+ 494     DRB1_0405        EPERTAMKKIQDC    3   RTAMKKIQD     0.827        Sequence      0.001381    76.45       NA      0.101554      16663.68    93.96       
+ 495     DRB1_0405        KIQDCYVENGLIS    1   IQDCYVENG     0.473        Sequence      0.002150    68.45       NA      0.192886       6203.04    72.63       
+ 496     DRB1_0405        LISRVLDGLVMTT    1   ISRVLDGLV     0.713        Sequence      0.001877    70.90       NA      0.289934       2170.60    44.27       
+ 497     DRB1_0405        YVENGLISRVLDG    3   NGLISRVLD     0.453        Sequence      0.000999    81.73       NA      0.181714       7000.05    75.71       
+ 498     DRB1_0405        LLVLALLVTQALG    3   LALLVTQAL     0.847        Sequence      0.002694    64.17       NA      0.231522       4083.71    61.45       
+ 499     DRB1_0405        VLDGLVMTTISSS    4   LVMTTISSS     0.640        Sequence      0.009020    41.64       NA      0.308362       1778.22    39.19       
+ 500     DRB1_0405        IQDCYVENGLISR    3   CYVENGLIS     0.453        Sequence      0.001482    75.13       NA      0.206352       5362.02    68.84       
+ 501     DRB1_0405        SSSKDCMGEAVQN    3   KDCMGEAVQ     0.373        Sequence      0.000462    91.27       NA      0.067919      23978.43    95.00       
+ 502     DRB1_0405        CYVENGLISRVLD    2   VENGLISRV     0.253        Sequence      0.000454    91.44       NA      0.205070       5436.91    69.22       
+ 503     DRB1_0405        LSLTKVNATEPER    3   TKVNATEPE     0.560        Sequence      0.006383    47.68       NA      0.160036       8850.46    81.45       
+ 504     DRB1_0405        ENGLISRVLDGLV    4   ISRVLDGLV     0.860        Sequence      0.007012    46.03       NA      0.266587       2794.38    51.00       
+ 505     DRB1_0405        LVTQALGVKMAET    1   VTQALGVKM     0.573        Sequence      0.000999    81.73       NA      0.210915       5103.72    67.51       
+ 506     DRB1_0405        VTQALGVKMAETC    4   LGVKMAETC     0.380        Sequence      0.000342    93.84       NA      0.157879       9059.44    81.99       
+ 507     DRB1_0405        LLVTQALGVKMAE    2   VTQALGVKM     0.680        Sequence      0.001469    75.30       NA      0.265796       2818.40    51.24       
+ 508     DRB1_0405        ALLVLALLVTQAL    4   LALLVTQAL     0.507        Sequence      0.001288    77.67       NA      0.238506       3786.50    59.39       
+ 509     DRB1_0405        VMTTISSSKDCMG    1   MTTISSSKD     0.900        Sequence      0.047937    18.03       NA      0.247741       3426.43    56.63       
+ 510     DRB1_0405        VQNTVEDLKLNTL    4   VEDLKLNTL     0.640        Sequence      0.002251    67.61       NA      0.142629      10684.66    85.73       
+ 511     DRB1_0405        ERTAMKKIQDCYV    4   MKKIQDCYV     0.920        Sequence      0.007204    45.55       NA      0.220651       4593.43    64.65       
+ 512     DRB1_0405        TAMKKIQDCYVEN    2   MKKIQDCYV     0.967        Sequence      0.031018    23.20       NA      0.205995       5382.77    68.95       
+ 513     DRB1_0405        GLVMTTISSSKDC    3   MTTISSSKD     1.000        Sequence      0.393732     2.75       NA      0.350555       1126.48    28.27   <=WB
+ 514     DRB1_0405        ATEPERTAMKKIQ    3   PERTAMKKI     0.533        Sequence      0.000263    95.00       NA      0.076014      21967.59    95.00       
+ 515     DRB1_0405        ALGVKMAETCPIF    3   VKMAETCPI     0.967        Sequence      0.011867    37.03       NA      0.316978       1619.94    36.84       
+ 516     DRB1_0405        ALLVTQALGVKMA    1   LLVTQALGV     0.547        Sequence      0.003261    60.49       NA      0.289558       2179.44    44.38       
+ 517     DRB1_0405        MKKIQDCYVENGL    3   IQDCYVENG     0.927        Sequence      0.011946    36.92       NA      0.176538       7403.26    77.10       
+ 518     DRB1_0405        DCMGEAVQNTVED    4   EAVQNTVED     0.473        Sequence      0.002529    65.31       NA      0.098455      17231.89    94.52       
+ 519     DRB1_0405        QNTVEDLKLNTLG    3   VEDLKLNTL     0.960        Sequence      0.004802    53.10       NA      0.132250      11954.49    88.00       
+ 520     DRB1_0405        KKIQDCYVENGLI    2   IQDCYVENG     0.907        Sequence      0.008253    43.14       NA      0.178076       7281.09    76.69       
+ 521     DRB1_0405        TQALGVKMAETCP    3   LGVKMAETC     0.727        Sequence      0.000527    89.89       NA      0.108450      15465.60    92.69       
+ 522     DRB1_0405        LVMTTISSSKDCM    2   MTTISSSKD     1.000        Sequence      0.148663     8.13       NA      0.347368       1166.00    29.06   <=WB
+ 523     DRB1_0405        MGEAVQNTVEDLK    2   EAVQNTVED     0.867        Sequence      0.017449    31.18       NA      0.135920      11489.10    87.20       
+ 524     DRB1_0405        NTVEDLKLNTLGR    2   VEDLKLNTL     0.927        Sequence      0.003974    56.70       NA      0.141014      10873.00    86.08       
+ 525     DRB1_0405        AMKKIQDCYVENG    1   MKKIQDCYV     0.540        Sequence      0.010164    39.59       NA      0.190779       6346.08    73.22       
+ 526     DRB1_0405        RTAMKKIQDCYVE    3   MKKIQDCYV     0.980        Sequence      0.047246    18.20       NA      0.232724       4030.95    61.10       
+ 527     DRB1_0405        TTISSSKDCMGEA    2   ISSSKDCMG     1.000        Sequence      0.016208    32.27       NA      0.132244      11955.27    88.00       
+ 528     DRB1_0405        QDCYVENGLISRV    2   CYVENGLIS     0.360        Sequence      0.001350    76.86       NA      0.210479       5127.85    67.63       
+ 529     DRB1_0405        TEPERTAMKKIQD    4   RTAMKKIQD     0.700        Sequence      0.001410    76.07       NA      0.100367      16879.07    94.17       
+ 530     DRB1_0405        NATEPERTAMKKI    2   TEPERTAMK     0.720        Sequence      0.000239    95.00       NA      0.067814      24005.68    95.00       
+ 531     DRB1_0405        MTTISSSKDCMGE    3   ISSSKDCMG     0.980        Sequence      0.016332    32.15       NA      0.156834       9162.45    82.26       
+ 532     DRB1_0405        LALLVTQALGVKM    2   LLVTQALGV     0.753        Sequence      0.004058    56.26       NA      0.299055       1966.62    41.73       
+ 533     DRB1_0405        AVQNTVEDLKLNT    2   QNTVEDLKL     0.800        Sequence      0.004859    52.89       NA      0.119162      13773.09    90.73       
+ 534     DRB1_0405      QGNVTSIHSLLDEGK    3   VTSIHSLLD     1.000        Sequence      0.939861     0.09       NA      0.578706         95.42     1.43   <=SB
+ 535     DRB1_0405      SEAYQGVQQKWDATA    3   YQGVQQKWD     0.987        Sequence      0.100605    11.07       NA      0.286588       2250.62    45.24       
+ 536     DRB1_0405      LARTISEAGQAMAST    4   ISEAGQAMA     0.593        Sequence      0.004315    54.95       NA      0.279160       2438.96    47.38       
+ 537     DRB1_0405      AYQGVQQKWDATATE    4   VQQKWDATA     0.447        Sequence      0.011000    38.27       NA      0.245927       3494.35    57.17       
+ 538     DRB1_0405      QQKWDATATELNNAL    3   WDATATELN     1.000        Sequence      0.220162     5.63       NA      0.350377       1128.65    28.31   <=WB
+ 539     DRB1_0405      KLAAAWGGSGSEAYQ    5   WGGSGSEAY     0.780        Sequence      0.004478    54.33       NA      0.165729       8321.75    80.01       
+ 540     DRB1_0405      EQQWNFAGIEAAASA    5   FAGIEAAAS     0.620        Sequence      0.242317     5.09       NA      0.525212        170.22     3.56   <=WB
+ 541     DRB1_0405      LNNALQNLARTISEA    4   LQNLARTIS     0.560        Sequence      0.004219    55.43       NA      0.335338       1328.09    32.00       
+ 542     DRB1_0405      SGSEAYQGVQQKWDA    5   YQGVQQKWD     0.947        Sequence      0.044065    18.98       NA      0.260001       3000.77    52.96       
+ 543     DRB1_0405      LAAAWGGSGSEAYQG    4   WGGSGSEAY     0.980        Sequence      0.010147    39.62       NA      0.140552      10927.49    86.18       
+ 544     DRB1_0405      TEQQWNFAGIEAAAS    4   WNFAGIEAA     0.667        Sequence      0.131570     9.00       NA      0.487642        255.60     6.19   <=WB
+ 545     DRB1_0405      GSEAYQGVQQKWDAT    4   YQGVQQKWD     1.000        Sequence      0.077095    13.34       NA      0.270600       2675.65    49.81       
+ 546     DRB1_0405      ARTISEAGQAMASTE    3   ISEAGQAMA     0.787        Sequence      0.005948    48.96       NA      0.233380       4002.44    60.91       
+ 547     DRB1_0405      AAWGGSGSEAYQGVQ    2   WGGSGSEAY     0.833        Sequence      0.002787    63.57       NA      0.131819      12010.37    88.10       
+ 548     DRB1_0405      RTISEAGQAMASTEG    2   ISEAGQAMA     0.507        Sequence      0.001203    78.78       NA      0.211544       5069.10    67.32       
+ 549     DRB1_0405      ISEAGQAMASTEGNV    4   GQAMASTEG     0.627        Sequence      0.003466    59.33       NA      0.159073       8943.15    81.69       
+ 550     DRB1_0405      SEAGQAMASTEGNVT    3   GQAMASTEG     0.533        Sequence      0.004803    53.10       NA      0.179190       7193.85    76.39       
+ 551     DRB1_0405      ELNNALQNLARTISE    5   LQNLARTIS     0.533        Sequence      0.001771    72.03       NA      0.348370       1153.43    28.81       
+ 552     DRB1_0405      TKLAAAWGGSGSEAY    2   LAAAWGGSG     0.513        Sequence      0.001846    71.23       NA      0.173406       7658.44    77.94       
+ 553     DRB1_0405      NLARTISEAGQAMAS    1   LARTISEAG     0.440        Sequence      0.005111    51.93       NA      0.309708       1752.51    38.84       
+ 554     DRB1_0405      WGGSGSEAYQGVQQK    5   SEAYQGVQQ     0.620        Sequence      0.000838    84.25       NA      0.139915      11003.06    86.32       
+ 555     DRB1_0405      TISEAGQAMASTEGN    5   GQAMASTEG     0.627        Sequence      0.001820    71.51       NA      0.176857       7377.76    77.01       
+ 556     DRB1_0405      AWGGSGSEAYQGVQQ    1   WGGSGSEAY     0.313        Sequence      0.000459    91.33       NA      0.132514      11920.40    87.94       
+ 557     DRB1_0405      TELNNALQNLARTIS    2   LNNALQNLA     0.533        Sequence      0.002470    65.80       NA      0.377799        838.89    22.21       
+ 558     DRB1_0405      QGVQQKWDATATELN    6   WDATATELN     0.527        Sequence      0.046473    18.39       NA      0.279777       2422.74    47.21       
+ 559     DRB1_0405      SLTKLAAAWGGSGSE    4   LAAAWGGSG     0.480        Sequence      0.002168    68.30       NA      0.241596       3661.99    58.46       
+ 560     DRB1_0405      AAAWGGSGSEAYQGV    3   WGGSGSEAY     0.960        Sequence      0.010197    39.54       NA      0.146522      10243.95    84.86       
+ 561     DRB1_0405      LTKLAAAWGGSGSEA    3   LAAAWGGSG     0.847        Sequence      0.002900    62.83       NA      0.208082       5262.58    68.34       
+ 562     DRB1_0405      YQGVQQKWDATATEL    5   QKWDATATE     0.500        Sequence      0.014620    33.78       NA      0.244642       3543.27    57.55       
+ 563     DRB1_0405      GVQQKWDATATELNN    5   WDATATELN     0.873        Sequence      0.178939     6.88       NA      0.301893       1907.15    40.96   <=WB
+ 564     DRB1_0405      TATELNNALQNLART    4   LNNALQNLA     0.827        Sequence      0.009190    41.34       NA      0.369270        919.99    24.02       
+ 565     DRB1_0405      QQWNFAGIEAAASAI    4   FAGIEAAAS     0.867        Sequence      0.215968     5.73       NA      0.545450        136.75     2.54   <=WB
+ 566     DRB1_0405      DATATELNNALQNLA    3   ATELNNALQ     0.787        Sequence      0.016321    32.16       NA      0.313417       1683.58    37.82       
+ 567     DRB1_0405      NNALQNLARTISEAG    4   QNLARTISE     0.300        Sequence      0.012033    36.80       NA      0.346856       1172.48    29.19       
+ 568     DRB1_0405      QKWDATATELNNALQ    2   WDATATELN     0.920        Sequence      0.069991    14.22       NA      0.325152       1482.83    34.64       
+ 569     DRB1_0405      EAYQGVQQKWDATAT    2   YQGVQQKWD     0.867        Sequence      0.029177    24.03       NA      0.265555       2825.76    51.31       
+ 570     DRB1_0405      LQNLARTISEAGQAM    3   LARTISEAG     0.973        Sequence      0.067582    14.55       NA      0.387631        754.23    20.20       
+ 571     DRB1_0405      MTEQQWNFAGIEAAA    5   WNFAGIEAA     0.867        Sequence      0.069796    14.24       NA      0.384987        776.12    20.74       
+ 572     DRB1_0405      KWDATATELNNALQN    5   ATELNNALQ     0.380        Sequence      0.015457    32.98       NA      0.290550       2156.18    44.08       
+ 573     DRB1_0405      AGQAMASTEGNVTGM    4   MASTEGNVT     0.733        Sequence      0.005126    51.88       NA      0.185359       6729.36    74.72       
+ 574     DRB1_0405      QSLTKLAAAWGGSGS    2   LTKLAAAWG     0.773        Sequence      0.007561    44.69       NA      0.277935       2471.51    47.74       
+ 575     DRB1_0405      NALQNLARTISEAGQ    5   LARTISEAG     0.800        Sequence      0.043469    19.14       NA      0.368049        932.22    24.28       
+ 576     DRB1_0405      VQQKWDATATELNNA    4   WDATATELN     0.980        Sequence      0.281983     4.29       NA      0.325890       1471.03    34.44   <=WB
+ 577     DRB1_0405      WDATATELNNALQNL    4   ATELNNALQ     0.680        Sequence      0.011287    37.85       NA      0.269758       2700.13    50.05       
+ 578     DRB1_0405      GQAMASTEGNVTGMF    3   MASTEGNVT     0.813        Sequence      0.005431    50.72       NA      0.207755       5281.23    68.43       
+ 579     DRB1_0405      ALQNLARTISEAGQA    4   LARTISEAG     0.973        Sequence      0.078123    13.21       NA      0.379340        825.02    21.89       
+ 580     DRB1_0405      ATELNNALQNLARTI    3   LNNALQNLA     0.860        Sequence      0.008077    43.53       NA      0.393422        708.42    19.10       
+ 581     DRB1_0405      ATATELNNALQNLAR    5   LNNALQNLA     0.553        Sequence      0.006712    46.79       NA      0.359068       1027.35    26.22       
+ 582     DRB1_0405      GSGSEAYQGVQQKWD    6   YQGVQQKWD     0.673        Sequence      0.007476    44.88       NA      0.222785       4488.59    64.02       
+ 583     DRB1_0405      QNLARTISEAGQAMA    2   LARTISEAG     0.860        Sequence      0.029225    24.01       NA      0.341806       1238.32    30.45       
+ 584     DRB1_0405      EAGQAMASTEGNVTG    3   QAMASTEGN     0.360        Sequence      0.006230    48.11       NA      0.176424       7412.40    77.13       
+ 585     DRB1_0405      QAMASTEGNVTGMFA    3   ASTEGNVTG     0.380        Sequence      0.003068    61.74       NA      0.210716       5114.72    67.56       
+ 586     DRB1_0405      GGSGSEAYQGVQQKW    4   SEAYQGVQQ     0.633        Sequence      0.001062    80.75       NA      0.149567       9911.95    84.09       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 7 Number of weak binders: 47
+--------------------------------------------------------------------------------------------------------------------------------------------
